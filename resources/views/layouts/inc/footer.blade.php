@@ -5,9 +5,9 @@
             <div class="footer-content pt-2 pb-2">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50 d-flex justify-content-center">
-                        <div class="footer-widget">
+                        <div class="footer-widget py-5">
                             <div class="footer-logo mb-1">
-                                <a href="index.html"><img src="{{asset('frontend/image/zuva_logo1.png')}}" style="max-width: 280px;" class="img-fluid" alt="logo"></a>
+                                <a href="index.html"><img src="{{asset('frontend/image/logo11.png')}}" style="max-width: 100px;" class="img-fluid" alt="logo"></a>
                             </div>
                         </div>
                     </div>

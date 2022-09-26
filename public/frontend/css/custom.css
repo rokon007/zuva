@@ -742,7 +742,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-   background: linear-gradient(to right, #000000, #434343) !important;
+   background: linear-gradient(to right, #000000, #000000) !important;
   position: relative;
 }
 .footer-cta {
@@ -876,7 +876,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: linear-gradient(to right, #000000, #434343) !important;
+  background: linear-gradient(to right, #000000, #000000) !important;
   padding: 25px 0;
 }
 .copyright-text p {

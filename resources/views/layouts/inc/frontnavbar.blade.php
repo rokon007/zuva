@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container">
     <a class="navbar-brand" href="{{url('/')}}">
-	  <img src="{{asset('frontend/image/zuva_logo1.png')}}" alt="Bootstrap" width="60" height="60"> Zuva Academy
+	  <img src="{{asset('frontend/image/logo1.png')}}" alt="Bootstrap" width="60" height="60"> Zuva Academy
 	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

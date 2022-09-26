@@ -13,7 +13,7 @@
 	   
 	   
 	   <div class="card mb-3">
-  <img src="{{asset('frontend/image/student3.jpg')}}" class="card-img-top" alt="...">
+  <img src="{{asset('frontend/image/student40.png')}}" class="card-img-top" alt="...">
   <div class="card-body">
     <h4 class="card-title">Why choose zuva academy ? </h4>
     <p class="card-text">1. A full education</p>
@@ -56,13 +56,13 @@ A well-decorated handball coach with various Mash East province accolades from f
 	   <div class="col-md-4 mt-2">
 	       <div class="card">
 				  <!-- <img src="{{asset('frontend/image/staff2.jpeg')}}" alt="product image">-->
-				   <img src="{{asset('frontend/image/science.webp')}}" class="rounded" alt="...">
+				   <img src="{{asset('frontend/image/sport30.png')}}" class="rounded" alt="...">
 				   <div class="card-body">
 					    
 						
 				 </div>
-				 <div class="card-footer">
-					   <h5>SCIENCE</h5>
+				 <div class="card-footer text-center bg-success">
+					   <h5 style="color:white;">SCIENCE</h5>
 				</div>
 			 </div>
 	       </div>
@@ -70,28 +70,29 @@ A well-decorated handball coach with various Mash East province accolades from f
 		    <div class="col-md-4 mt-2">
 	       <div class="card">
 				  <!-- <img src="{{asset('frontend/image/staff2.jpeg')}}" alt="product image">-->
-				   <img src="{{asset('frontend/image/agriculture.webp')}}" class="rounded" alt="...">
+				   <img src="{{asset('frontend/image/sport20.png')}}" class="rounded" alt="...">
 				   <div class="card-body">
 					    
 						
 				 </div>
-				 <div class="card-footer">
-					   <h5>AGRICULTURE</h5>
-				</div>
+				 <div class="card-footer text-center bg-success">
+					   <h5 style="color:white;">AGRICULTURE</h5>
+				</div>		 
 			 </div>
 	       </div>
 		   
 		    <div class="col-md-4 mt-2">
 	       <div class="card">
 				  <!-- <img src="{{asset('frontend/image/staff2.jpeg')}}" alt="product image">-->
-				   <img src="{{asset('frontend/image/sport.webp')}}" class="rounded" alt="...">
+				   <img src="{{asset('frontend/image/sport1.png')}}" class="rounded" alt="...">
 				   <div class="card-body">
 					    
 						
 				 </div>
-				 <div class="card-footer">
-					   <h5>SPORT</h5>
+				  <div class="card-footer text-center bg-success">
+					   <h5 style="color:white;">SPORT</h5>
 				</div>
+				 
 			 </div>
 	       </div>
 	</div>
