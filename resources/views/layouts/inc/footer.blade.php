@@ -6,8 +6,8 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50 d-flex justify-content-center">
                         <div class="footer-widget">
-                            <div class="footer-logo mb-2">
-                                <a href="index.html"><img src="{{asset('frontend/image/zuva_logo1.png')}}" style="max-width: 200px;" class="img-fluid" alt="logo"></a>
+                            <div class="footer-logo mb-3">
+                                <a href="index.html"><img src="{{asset('frontend/image/zuva_logo1.png')}}" style="max-width: 280px;" class="img-fluid" alt="logo"></a>
                             </div>
                         </div>
                     </div>
