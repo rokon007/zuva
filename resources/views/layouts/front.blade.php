@@ -11,11 +11,11 @@
 
     <!-- Styles -->
    
-	  <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
-	  <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
+	  <link href="frontend/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="frontend/css/custom.css" rel="stylesheet">
 	  
-	  <link href="{{ asset('frontend/css/owl.carousel.min.css') }}" rel="stylesheet">
-	  <link href="{{ asset('frontend/css/owl.theme.default.min.css') }}" rel="stylesheet">
+	  <link href="frontend/css/owl.carousel.min.css" rel="stylesheet">
+	  <link href="frontend/css/owl.theme.default.min.css" rel="stylesheet">
 	  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
       @yield('css')
 </head>
@@ -25,12 +25,12 @@
             @yield('content')
         </div>
     <!-- Scripts -->
-	<script src="{{ asset('frontend/js/jquery-3.6.1.js') }}"></script>
+	<script src="frontend/js/jquery-3.6.1.js"></script>
 	
-    <script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}" defer></script>
+    <script src="frontend/js/bootstrap.bundle.min.js" defer></script>
 	
 	
-	<script src="{{ asset('frontend/js/owl.carousel.min.js') }}"></script>
+	<script src="frontend/js/owl.carousel.min.js"></script>
     @yield('script')
 </body>
 </html>
