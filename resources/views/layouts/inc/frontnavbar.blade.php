@@ -13,13 +13,16 @@
           <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/about') }}">About us</a>
+          <a class="nav-link" href="{{ url('/about') }}">Why choose zuva academy</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="{{ url('/team') }}">Our Team</a>
+          <a class="nav-link" href="{{ url('/team') }}">Our staff</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/contact') }}">Contact us</a>
+          <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="{{ url('/contact') }}">Curriculum</a>
         </li>
         @if (Route::has('login'))
          @auth

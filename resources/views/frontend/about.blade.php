@@ -26,7 +26,7 @@
  <div class="container1">
   <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
   
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 300%;">About Zuva Academy</p></div>
+  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 180%;">WHY CHOOSE ZUVA ACADEMY?</p></div>
 </div> 
 
    <div class="py-5"> 
@@ -37,11 +37,20 @@
 	   <div class="card mb-3">
   <img src="{{asset('frontend/image/ban1.jpg')}}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h4 class="card-title">About Zuva Academy </h4>
-    <p class="card-text">Experienced mathematics teacher with a career spanning a decade
-Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
-A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <h4 class="card-title">WHY CHOOSE ZUVA ACADEMY? </h4>
+    <p class="card-text">1. A full education</p>
+	<p class="card-text">We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible enrichment these subjects can bring to a child’s life and future.
+</p>
+	<br>
+	<p class="card-text">2. Making each individual the best version of themselves they can be.</p>
+	<p class="card-text">We believe that every child is an individual with their own unique personality, talents and skills; and it’s this individuality that we encourage them to grow at all stages of their education.</p>
+	<p class="card-text">A child’s potential could lie anywhere – so we ensure that every pupil is exposed to a huge array of opportunities and experiences. We then pride ourselves on identifying and honing their strengths to make the most of their natural abilities, while working hard to develop areas that need improvement. This approach sees each and every student grow into the very best version of themselves they can be.</p>
+	<br>
+	<p class="card-text">3. Confidence for life beyond education</p>
+	<p class="card-text">Our approach to ensuring each child becomes a confident, well-rounded young adult isn’t exclusively founded on providing an excellent education.
+</p>
+	<p class="card-text">We believe instilling confidence in each individual child by providing an environment that is full, diverse & inspiring</p>
+	
   </div>
 </div>
 
