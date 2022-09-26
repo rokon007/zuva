@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50 d-flex justify-content-center">
                         <div class="footer-widget">
-                            <div class="footer-logo mb-3">
+                            <div class="footer-logo mb-1">
                                 <a href="index.html"><img src="{{asset('frontend/image/zuva_logo1.png')}}" style="max-width: 280px;" class="img-fluid" alt="logo"></a>
                             </div>
                         </div>
@@ -14,7 +14,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-8 mb-50 d-flex justify-content-center">
                         <div class="footer-widget">
                             <div class="footer-text mb-25">
-                                <p style="color:#ffffff;font-size:14px">Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p style="color:#ffffff;font-size:14px">Don't miss to subscribe to our new feeds.</p>
                                 <div class="subscribe-form">
                                      <form action="#" method="POST" enctype="multipart/form-data">
                                     @csrf
