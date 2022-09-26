@@ -5,9 +5,10 @@
             <div class="footer-content pt-2 pb-2">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50 d-flex justify-content-center">
-                        <div class="footer-widget py-5">
-                            <div class="footer-logo mb-1">
-                                <a href="index.html"><img src="{{asset('frontend/image/logo11.png')}}" style="max-width: 100px;" class="img-fluid" alt="logo"></a>
+                        <div class="footer-widget">
+						<p style="color:black;font-size:14px">ZUVA ACADEMY</p>
+                            <div class="footer-logo mb-25" >
+                                <a href="index.html"><img src="{{asset('frontend/image/logo.jpeg')}}" style="max-width: 60px;flot:right;" class="img-fluid" alt="logo"></a>
                             </div>
                         </div>
                     </div>
@@ -34,21 +35,19 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-center">
                         <div class="copyright-text">
                             <p>Copyright © 2022, All Rights Reserved Zuva Academy</a></p>
                         </div>
                     </div>
-
+                    
                     <div class="col-xl-6 col-lg-6 text-center text-lg-right">
                         <div class="copyright-text">
                             <p><a href="#" style="color:#ffffff;font-size:14px">Terms and conditons</a> | <a href="#" style="color:#ffffff;font-size:14px">Privacy policy</a></p>
                         </div>
                     </div>
-
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        
-                    </div>
+					
+                   
                 </div>
             </div>
         </div>

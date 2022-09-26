@@ -11,6 +11,7 @@
   position: relative;
   text-align: center;
   color: white;
+  backdrop-filter: brightness(300%);
 }
 
      /* Centered text */
@@ -24,11 +25,11 @@
 
 
  <div class="container1">
-  <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
+  <img src="{{asset('frontend/image/ban2.jpg')}}" alt="Snow" style="width:100%;">
   
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 180%;">Our staff</p></div>
+  <div class="centered" ><p style="text-shadow: 5px 5px 10px black; color:white;font-weight: bold; font-size: 150%;">Our Staff</p></div>
 </div> 
-
+<!--
 <div class="py-5"> 
      
        <div class="container"> 
@@ -46,7 +47,7 @@ Underlying each individual is an energy and commitment to not only the company b
 </div>
    </div>
    </div>
-
+-->
 
 
 

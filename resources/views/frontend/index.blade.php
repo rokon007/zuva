@@ -49,9 +49,11 @@ A well-decorated handball coach with various Mash East province accolades from f
    </div>
 
 
- <div class="py-5">
+ <div class="py-1">
     <div class="container">
-	<h4>Curriculum</h4>
+	 <div class="col-xl-12 col-lg-12 col-md-12 text-center py-4">
+	<h2 style="font-weight: bold;">Curriculum</h2>
+	</div>
 	<div class="row">
 	   <div class="col-md-4 mt-2">
 	       <div class="card">
@@ -98,11 +100,12 @@ A well-decorated handball coach with various Mash East province accolades from f
 	</div>
 	</div>
  </div>
-    <div class="py-5">
+    <div class="py-3">
          <div class="container">
-		  <div class="py-2">
-		  <h4>Our Staff</h4>
-		  </div>
+		 <div class="col-xl-12 col-lg-12 col-md-12 text-center py-4">
+	<h2 style="font-weight: bold;">Our Staff</h2>
+	</div>
+		 
 		    <div class="row">
 			
 			

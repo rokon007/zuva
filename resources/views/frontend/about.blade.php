@@ -11,6 +11,7 @@
   position: relative;
   text-align: center;
   color: white;
+ backdrop-filter: brightness(120%);
 }
 
      /* Centered text */
@@ -24,9 +25,9 @@
 
 
  <div class="container1">
-  <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
+  <img src="{{asset('frontend/image/ban1.jpg')}}" alt="Snow" style="width:100%;">
   
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 180%;">WHY CHOOSE ZUVA ACADEMY?</p></div>
+  <div class="centered" ><p style="text-shadow: 5px 5px 10px black;color:white;font-weight: bold; font-size: 100%;">WHY CHOOSE ZUVA ACADEMY?</p></div>
 </div> 
 
    <div class="py-5"> 
@@ -35,7 +36,7 @@
 	   
 	   
 	   <div class="card mb-3">
-  <img src="{{asset('frontend/image/ban1.jpg')}}" class="card-img-top" alt="...">
+ <!-- <img src="{{asset('frontend/image/ban1.jpg')}}" class="card-img-top" alt="...">-->
   <div class="card-body">
     <h4 class="card-title">WHY CHOOSE ZUVA ACADEMY? </h4>
     <p class="card-text">1. A full education</p>
