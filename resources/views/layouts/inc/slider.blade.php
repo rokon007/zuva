@@ -26,7 +26,7 @@
   </button>
 </div>
 -->
-<style>
+ <style>
        .container1 {
   position: relative;
   text-align: center;
@@ -41,6 +41,17 @@
   transform: translate(-50%, -50%);
 }
     </style>
+
+
+ <div class="container1">
+  <img src="{{asset('frontend/image/banner1.jpeg')}}" alt="Snow" style="width:100%;">
+  
+  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 300%;">Zuva Academy</p></div>
+</div> 
+
+
+<!--
+
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,3 +90,4 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+-->
