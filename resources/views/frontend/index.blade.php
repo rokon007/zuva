@@ -16,10 +16,10 @@
   <img src="{{asset('frontend/image/student3.jpg')}}" class="card-img-top" alt="...">
   <div class="card-body">
     <h4 class="card-title">Why choose zuva academy ? </h4>
-    <p class="card-text">Experienced mathematics teacher with a career spanning a decade
-Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
-A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <p class="card-text">1. A full education</p>
+	<p class="card-text">We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible ... ... ...
+</p>
+    <p class="card-text"><small class="text-muted"><a href="{{ url('/about') }}">Read more</a></small></p>
   </div>
 </div>
 
