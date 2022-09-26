@@ -145,9 +145,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Mharadzirwa Kudakwashe Bryan</h5>
 						<p>Mathematics teacher </p>
 					  </div>
-					  <div class="card-footer">
-					   <i class="btn btn-danger form-control"> <a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><i>
-					  </div>
+					 
+					   <button class="btn btn-danger form-control"> <a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
+					 
 				   </div>
 			   </div>
 			   
@@ -159,9 +159,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Ms Makuyu,</h5>
 						<p>A holder of a diploma in education.</p>
 					  </div>
-					  <div class="card-footer">
+					  
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					 
 				   </div>
 			   </div>
 			   
@@ -173,9 +173,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Karen Hwaira.</h5>
 						<p>Science teacher  specialised in Chemistry. </p>
 					  </div>
-					  <div class="card-footer">
+					  
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					 
 				   </div>
 			   </div>
 			   
@@ -187,9 +187,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Charity Mandimutsira</h5>
 						<p> Diploma holder in Geography and ChiShona.</p>
 					  </div>
-					  <div class="card-footer">
+					 
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					  
 				   </div>
 			   </div>
 			   
@@ -201,9 +201,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Winnet Chido Mbwanda</h5>
 						<p>Degree in Religious.</p>
 					  </div>
-					  <div class="card-footer">
+					  
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					 
 				   </div>
 			   </div>
 			   
@@ -215,9 +215,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Florence Chipangura </h5>
 						<p>Accounts teacher with experience </p>
 					  </div>
-					  <div class="card-footer">
+					  
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					  
 				   </div>
 			   </div>
 			   
@@ -229,9 +229,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Mharadzirwa Kudakwashe Bryan</h5>
 						<p>Mathematics teacher </p>
 					  </div>
-					  <div class="card-footer">
+					  
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					  
 				   </div>
 			   </div>
 			   
@@ -243,9 +243,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Mharadzirwa Kudakwashe Bryan</h5>
 						<p>Mathematics teacher </p>
 					  </div>
-					  <div class="card-footer">
+					 
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					  
 				   </div>
 			   </div>
 			   
@@ -257,9 +257,9 @@ A well-decorated handball coach with various Mash East province accolades from f
 					    <h5>Mharadzirwa Kudakwashe Bryan</h5>
 						<p>Mathematics teacher </p>
 					  </div>
-					  <div class="card-footer">
+					 
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
-					  </div>
+					 
 				   </div>
 			   </div>
 			   
