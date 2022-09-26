@@ -27,7 +27,7 @@
  <div class="container1">
   <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
   
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 300%;">Contact Us</p></div>
+  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 50%;">Contact Us</p></div>
 </div> 
    <!-- Wrapper container -->
 <div class="container py-4">
