@@ -26,7 +26,7 @@
  <div class="container1">
   <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
   
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 180%;">MEAT OUR TEAM</p></div>
+  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 180%;">Our staff</p></div>
 </div> 
 
 <div class="py-5"> 

@@ -18,25 +18,26 @@
 		<li class="nav-item">
           <a class="nav-link" href="{{ url('/team') }}">Our staff</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link" href="{{ url('/contact') }}">Curriculum</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
         </li>
-		 <li class="nav-item">
-          <a class="nav-link" href="{{ url('/contact') }}">Curriculum</a>
-        </li>
+		 
         @if (Route::has('login'))
          @auth
          <li class="nav-item">
                <a class="nav-link" href="{{ url('/dassboard') }}">Dassboard</a>
          </li>
           @else
-        <li class="nav-item">
+    <!--    <li class="nav-item">
           <a class="nav-link" href="{{ route('login') }}">Log in</a>
-        </li>
+        </li> -->
              @if (Route::has('register'))
-             <li class="nav-item">
+          <!--   <li class="nav-item">
                <a class="nav-link" href="{{ route('register') }}">Register</a>
-             </li>
+             </li> -->
              @endif
          @endauth
         @endif

@@ -146,7 +146,7 @@ A well-decorated handball coach with various Mash East province accolades from f
 						<p>Mathematics teacher </p>
 					  </div>
 					  <div class="card-footer">
-					   <button class="btn btn-danger form-control"> <a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
+					   <i class="btn btn-danger form-control"> <a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><i>
 					  </div>
 				   </div>
 			   </div>
