@@ -5,7 +5,7 @@
 
 
 
-.navbar a {
+.ex2 a {
   float: left;
   display: block;
   color: black;
@@ -15,41 +15,30 @@
   
 }
 
-.navbar a:hover {
+.ex2 a:hover {
   background-color:#04AA6D;
   color: white;
 }
 
-.navbar a.active {
+.ex2 a.active {
   background-color: #red;
   color: black;
 }
 
-.navbar .icon {
+.ex2 .icon {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .navbar.responsive .icon {
-    position: absolute;
-    right: 0;
-    bottom:0;
-  }
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 
+</style>
+<style>
+a.ex1:hover {
+ background-color: #008000; //add this of course....
+    color: #white;
 }
+ 
+
 </style>
 
 
@@ -65,33 +54,33 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="{{ url('/') }}">Home</a>
+          <a class="nav-link ex1" aria-current="page" href="{{ url('/') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/about') }}">Why Choose Zuva Academy</a>
+          <a class="nav-link ex1" href="{{ url('/about') }}">Why Choose Zuva Academy</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="{{ url('/team') }}">Our Staff</a>
+          <a class="nav-link ex1" href="{{ url('/team') }}">Our Staff</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="{{ url('/contact') }}">Curriculum</a>
+          <a class="nav-link ex1" href="{{ url('/contact') }}">Curriculum</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+          <a class="nav-link ex1" href="{{ url('/contact') }}">Contact</a>
         </li>
 		 
         @if (Route::has('login'))
          @auth
-         <li class="nav-item">
-               <a class="nav-link" href="{{ url('/dassboard') }}">Dassboard</a>
+         <li class="nav-item ">
+               <a class="nav-link ex1" href="{{ url('/dassboard') }}">Dassboard</a>
          </li>
           @else
     <!--    <li class="nav-item">
-          <a class="nav-link" href="{{ route('login') }}">Log in</a>
+          <a class="nav-link ex1" href="{{ route('login') }}">Log in</a>
         </li> -->
              @if (Route::has('register'))
           <!--   <li class="nav-item">
-               <a class="nav-link" href="{{ route('register') }}">Register</a>
+               <a class="nav-link ex1" href="{{ route('register') }}">Register</a>
              </li> -->
              @endif
          @endauth
