@@ -114,7 +114,7 @@
 
 <!-- SB Forms JS -->
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-	 @include('layouts.inc.footer')
+	 @include('layouts.inc.footer1')
 @endsection
 @section('script')
        <script>

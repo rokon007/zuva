@@ -236,7 +236,7 @@ A well-decorated handball coach with various Mash East province accolades from f
 
  
     
-	 @include('layouts.inc.footer')
+	 @include('layouts.inc.footer1')
 @endsection
 @section('script')
        <script>
