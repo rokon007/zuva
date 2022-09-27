@@ -2,7 +2,7 @@
     <!----------- Footer ------------>
     <footer class="footer-bs footer-section">
         <div class="row">
-        	<div class="col-md-6 footer-brand animated fadeInLeft">
+        	<div class="col-md-6 footer-brand animated fadeInLeft py-3">
 			<center>
             	 <a href="index.html"><img src="{{asset('frontend/image/logo.jpeg')}}" style="max-width: 60px;flot:right;" class="img-fluid" alt="logo"></a>
                 <p></p>
@@ -38,7 +38,9 @@
                 </ul>
             </div>-->
         	<div class="col-md-6 footer-ns animated fadeInRight">
-            	<h4>Newsletter</h4>
+            	<div class="copyright-text">
+				 <p>Subscribe To Our Newsletter.</a></p>
+				 </div>
                <!-- <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>-->
                 <p>
                    <div class="subscribe-form">
