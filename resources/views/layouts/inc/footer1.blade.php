@@ -2,7 +2,7 @@
     <!----------- Footer ------------>
     <footer class="footer-bs footer-section">
         <div class="row">
-        	<div class="col-md-6 footer-brand animated fadeInLeft py-3">
+        	<div class="col-md-6 footer-brand animated fadeInLeft py-5">
 			<center>
             	 <a href="index.html"><img src="{{asset('frontend/image/logo.jpeg')}}" style="max-width: 60px;flot:right;" class="img-fluid" alt="logo"></a>
                 <p></p>
