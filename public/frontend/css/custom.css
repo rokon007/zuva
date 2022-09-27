@@ -745,6 +745,10 @@ ul {
    background: linear-gradient(to right, #000000, #000000) !important;
   position: relative;
 }
+.footer-rokon{
+background: linear-gradient(to right, #000000, #000000) !important;	
+}
+
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
