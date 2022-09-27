@@ -1,6 +1,6 @@
 
     <!----------- Footer ------------>
-    <footer class="footer-bs footer-rokon">
+    <footer class="footer-bs footer-section">
         <div class="row">
         	<div class="col-md-6 footer-brand animated fadeInLeft py-3">
 			<center>
