@@ -39,7 +39,7 @@
             </div>-->
         	<div class="col-md-6 footer-ns animated fadeInRight">
 			<div class="container">
-            	<div class="copyright-text">
+            	<div class="copyright-text py-3">
 				 <p>Subscribe To Our Newsletter.</a></p>
 				 </div>
                <!-- <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>-->
