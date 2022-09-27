@@ -38,6 +38,7 @@
                 </ul>
             </div>-->
         	<div class="col-md-6 footer-ns animated fadeInRight">
+			<div class="container">
             	<div class="copyright-text">
 				 <p>Subscribe To Our Newsletter.</a></p>
 				 </div>
@@ -54,6 +55,7 @@
                                 </div><!-- /input-group -->
                  </p>
             </div>
+			</div>
         </div>
 		<center>
 		   <div class="copyright-text">
