@@ -1,6 +1,6 @@
 
     <!----------- Footer ------------>
-    <footer class="footer-bs">
+    <footer class="footer-bs footer-section">
         <div class="row">
         	<div class="col-md-6 footer-brand animated fadeInLeft">
 			<center>
