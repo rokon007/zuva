@@ -71,6 +71,12 @@
 
 
 
+   <section class="ftco-section ftco-no-pb ftco-no-pt" id="chap-section">
+
+   </section>
+   
+   
+   
     
 	<section class="ftco-section ftco-no-pb ftco-no-pt" id="chapter-section">
 <div class="container">
@@ -276,25 +282,14 @@
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 </div>
 </div>
 </section>
    
+   <section class="ftco-section ftco-no-pb ftco-no-pt" id="chap1-section">
 
+   </section>
 
 <div class="py-5"> 
 <div class="container">
@@ -311,10 +306,10 @@
 <div class="row">
   <div class="col-md-3">
     <div class="thumbnail">
-      <a href="/w3images/lights.jpg">
-        <img src="{{asset('frontend/image/sport 3.jpeg')}}" alt="Lights" style="width:100%">
+      <a href="/w3images/fjords.jpg">
+        <img src="{{asset('frontend/image/sport30.png')}}" alt="Lights" style="width:100%">
         <div class="caption">
-          <p>Lorem ipsum...</p>
+          <p>SCIENCE</p>
         </div>
       </a>
     </div>
@@ -322,9 +317,9 @@
   <div class="col-md-3">
     <div class="thumbnail">
       <a href="/w3images/nature.jpg">
-        <img src="{{asset('frontend/image/sport1.png')}}" alt="Nature" style="width:100%">
+        <img src="{{asset('frontend/image/sport20.png')}}" alt="Nature" style="width:100%">
         <div class="caption">
-          <p>Lorem ipsum...</p>
+          <p>AGRICULTURE</p>
         </div>
       </a>
     </div>
@@ -332,9 +327,9 @@
   <div class="col-md-3">
     <div class="thumbnail">
       <a href="/w3images/fjords.jpg">
-        <img src="{{asset('frontend/image/sport2.jpeg')}}" alt="Fjords" style="width:100%">
+        <img src="{{asset('frontend/image/sport1.png')}}" alt="Fjords" style="width:100%">
         <div class="caption">
-          <p>Lorem ipsum...</p>
+          <p>SPORT</p>
         </div>
       </a>
     </div>
@@ -342,9 +337,9 @@
    <div class="col-md-3">
     <div class="thumbnail">
       <a href="/w3images/fjords.jpg">
-        <img src="{{asset('frontend/image/sport 3.jpeg')}}" alt="Fjords" style="width:100%">
+        <img src="{{asset('frontend/image/sport30.png')}}" alt="Fjords" style="width:100%">
         <div class="caption">
-          <p>Lorem ipsum...</p>
+          <p>SCIENCE</p>
         </div>
       </a>
     </div>
