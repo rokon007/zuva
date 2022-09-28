@@ -23,6 +23,8 @@ Route::get('/',[FrontendController::class,'index']);
 Route::get('/about',[FrontendController::class,'index_about']);
 Route::get('/team',[FrontendController::class,'index_team']);
 Route::get('/contact',[FrontendController::class,'index_contact']);
+Route::get('/curriculum',[FrontendController::class,'index_curriculum']);
+Route::get('/home2',[FrontendController::class,'index_index2']);
 
 Auth::routes();
 

@@ -74,7 +74,7 @@ a.ex1 {
           <a class="nav-link ex1"  href="{{ url('/team') }}">Our Staff</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link ex1" href="{{ url('/contact') }}">Curriculum</a>
+          <a class="nav-link ex1" href="{{ url('/curriculum') }}">Curriculum</a>
         </li>
         <li class="nav-item">
           <a class="nav-link ex1" href="{{ url('/contact') }}">Contact</a>

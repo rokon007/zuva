@@ -26,4 +26,12 @@ class FrontendController extends Controller
     {
       return view('frontend.contact');
     }
+	public function index_curriculum()
+    {
+      return view('frontend.curriculum');
+    }
+	public function index_index2()
+    {
+      return view('frontend.index2');
+    }
 }

@@ -141,9 +141,7 @@ A well-decorated handball coach with various Mash East province accolades from f
           
 			   <div class="item">
 			       <div class="card">
-				   <!--<img src="{{asset('frontend/image/staff2.jpeg')}}" alt="product image">
-				   <img src="{{asset('frontend/image/staff2.jpeg')}}" class="rounded" alt="...">-->
-				   <img class="rounded-circle" alt="100x100" src="{{asset('frontend/image/t1.jpg')}}"
+				    <img src="{{asset('frontend/image/t1.jpg')}}" class="rounded" alt="...">
           data-holder-rendered="true">
 				      <div class="card-body">
 					    <h5>Mharadzirwa Kudakwashe Bryan</h5>
