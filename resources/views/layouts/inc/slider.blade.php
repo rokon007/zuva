@@ -42,12 +42,20 @@
 }
     </style>
 
-
- <div class="container1">
+ <div class="hero-image">
+  <div class="hero-text">
+    <p style="font-weight: bold; font-size: 300%;">Zuva Academy</p>
+    <p style="text-shadow: 5px 5px 10px black; color:#FFFF00;font-weight: bold; font-size: 75%;">
+	January 2023 enrolment now in progress
+	</p>
+    <button class="btn btn-warning btn-text">ADMISSION</button>
+  </div>
+</div> 
+ <!--<div class="container1">
   <img src="{{asset('frontend/image/banner1.jpeg')}}" alt="Snow" style="width:100%;">
   
   <div class="centered" ><p style="color:white;font-weight: bold; font-size: 300%;">Zuva Academy</p></div>
-</div> 
+</div> -->
 
 
 <!--
