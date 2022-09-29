@@ -51,6 +51,10 @@
     <button class="btn btn-warning btn-text">ADMISSION</button>
   </div>
 </div> 
+
+
+
+
  <!--<div class="container1">
   <img src="{{asset('frontend/image/banner1.jpeg')}}" alt="Snow" style="width:100%;">
   
