@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title')
- Zuva Academy
+ Zuva Academy | Contact Us
 @endsection
 
 @include('layouts.inc.frontnavbar')
@@ -24,13 +24,12 @@
     </style>
 
 
- <div class="container1">
-  <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
-  
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 50%;">Contact Us</p></div>
-</div> 
+ 
    <!-- Wrapper container -->
-<div class="container py-4">
+<div class="container py-5">
+<div class="py-4 justify-content-center">
+<h2 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">CONTACT US</h2>
+</div>
 <div class="col-md-8 offset-md-2">
 <div class="card">
 <div class="card-body">
@@ -86,22 +85,5 @@
 	 @include('layouts.inc.footer1')
 @endsection
 @section('script')
-       <script>
-      $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-      </script>
+      
 @endsection

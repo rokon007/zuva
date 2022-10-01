@@ -5,75 +5,81 @@
 @endsection
 
 @section('css')
- <link rel="stylesheet" href="frontend/curriculum/css/font-awesome.min.css">
+<link rel="stylesheet" href="frontend/curriculum/css/font-awesome.min.css">
 <link rel="stylesheet" href="frontend/curriculum/css/rokon1.css" />
 <link rel="stylesheet" href="frontend/curriculum/css/rokon2.css" />
-  
 @endsection
 
 @include('layouts.inc.frontnavbar')
 @section('content')
 
-
-<!-- Carousel -->
-<div class="py-2"> 
-<div class="container">
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
-
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{asset('frontend/image/student40.png')}}" alt="Los Angeles" class="d-block w-100">
-	  <div class="carousel-caption">
-    <h3 style="text-shadow: 5px 5px 10px black; color:#FFFF00;font-weight: bold; font-size: 250%;">
-	January 2023 enrolment now in progress
-	</h3>
-    <p style=" color:white;font-weight: bold; font-size: 100%;">We had such a great time in LA!</p>
-  </div>
+<!-- ======= herostaff Section ======= -->
+  <section id="curriculum" class="curriculum">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>CURRICULUM<span> </span></h2>
+		   <p>January 2023 enrolment now in progress.<br>
+		   ENROLL YOUR CHILD AT ZUVA ACADEMY FOR A FULL EDUCATION 
+		   </p>
+		   
+		  {{--
+          <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+		  --}}
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="{{asset('frontend/image/logo5.png')}}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
     </div>
-   <div class="carousel-item">
-      <img src="{{asset('frontend/image/student40.png')}}" alt="Los Angeles" class="d-block w-100">
-	  <div class="carousel-caption">
-    <h3 style="text-shadow: 5px 5px 10px black; color:#FFFF00;font-weight: bold; font-size: 200%;">
-	ENROLL YOUR CHILD AT ZUVA ACADEMY FOR A FULL EDUCATION 
-	</h3>
-    <p style=" color:white;font-weight: bold; font-size: 100%;">We had such a great time in LA!</p>
-  </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon">
+			  <img src="{{asset('Images/image11.png')}}" class="card-img-top" alt="...">
+			  </div>
+             <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon">
+			  <img  src="{{asset('Images/image (4).jpeg')}}" class="card-img-top" alt="...">
+			  </div>
+              <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon">
+			  <img  src="{{asset('Images/image3.jpeg')}}" class="card-img-top" alt="...">
+			  </div>
+              <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          
+
+        </div>
+      </div>
     </div>
-     <div class="carousel-item">
-      <img src="{{asset('frontend/image/student40.png')}}" alt="Los Angeles" class="d-block w-100">
-	  <div class="carousel-caption">
-    <h3 style="text-shadow: 5px 5px 10px black; color:#FFFF00;font-weight: bold; font-size: 250%;">
-	January 2023 enrolment now in progress
-	</h3>
-    <p style=" color:white;font-weight: bold; font-size: 100%;">We had such a great time in LA!</p>
-  </div>
+
     </div>
-  </div>
-
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-</div>
-</div>
-
-
-
-   <section class="ftco-section ftco-no-pb ftco-no-pt" id="chap-section">
-
-   </section>
+  </section>
+  <!-- End herostaff Section -->
    
    
    
@@ -82,7 +88,7 @@
 <div class="container">
 <div class="row justify-content-center py-5 mt-5">
 <div class="col-md-12 heading-section text-center ftco-animate">
-<h2 class="mb-4">Curriculum</h2>
+<h2 class="mb-4" style="color:#008000">CURRICULUM</h2>
 </div>
 </div>
 <div class="row">
@@ -106,11 +112,9 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;" >Mathematics</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;" >Mathematics</h5>
+   
+    
   </div>
 </div>
 </div>
@@ -118,11 +122,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">English Language</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">English Language</h5>
+    
   </div>
 </div>
 </div>
@@ -130,11 +131,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">History</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">History</h5>
+    
   </div>
 </div>
 </div>
@@ -142,11 +140,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Religious Studies</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Religious Studies</h5>
+   
   </div>
 </div>
 </div>
@@ -155,11 +150,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Combined Science</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Combined Science</h5>
+   
   </div>
 </div>
 </div>
@@ -167,11 +159,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Geography</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Geography</h5>
+   
   </div>
 </div>
 </div>
@@ -179,11 +168,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Accounting</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Accounting</h5>
+   
   </div>
 </div>
 </div>
@@ -192,11 +178,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Economics</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Economics</h5>
+   
   </div>
 </div>
 </div>
@@ -204,11 +187,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Business Studies</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Business Studies</h5>
+   
   </div>
 </div>
 </div>
@@ -216,11 +196,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">ICT</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">ICT</h5>
+    
   </div>
 </div>
 </div>
@@ -233,27 +210,21 @@
 
 <div class="row d-flex contact-info mb-5">
 
-<div class="col-md-4 col-sm-1 mt-3">
+<div class="col-md-6 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Brick and Block laying</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Brick and Block laying</h5>
+   
   </div>
 </div>
 </div>
 
 
-<div class="col-md-4 col-sm-1 mt-3">
+<div class="col-md-6 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Building Technology and design</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Building Technology and design</h5>
+    
   </div>
 </div>
 </div>
@@ -269,11 +240,8 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card" >
   <div class="card-body">
-    <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Shona</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Shona</h5>
+   
   </div>
 </div>
 </div>
@@ -290,7 +258,7 @@
    <section class="ftco-section ftco-no-pb ftco-no-pt" id="chap1-section">
 
    </section>
-
+   {{--
 <div class="py-5"> 
 <div class="container">
  <div class="mt-4 p-5 bg-warning text-white rounded">
@@ -300,6 +268,68 @@
 </div>
 </div>
 </div>
+   --}}
+
+<section class="ftco-about img ftco-section" id="about-section">
+<div class="container">
+<div class="row d-flex no-gutters">
+<div class="col-md-6 col-lg-6 d-flex">
+<div class="img-about img d-flex align-items-stretch">
+<div class="overlay"></div>
+<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/image4.jpeg);">
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6 pl-md-5">
+<div class="row justify-content-start pb-3">
+<div class="col-md-12 heading-section ftco-animate">
+<h3 class="mb-4"style="color: #008000;">ABOUT THE CURRICULUM</h3>
+<p>It is our aim to unlock the potential
+of each individual by offering every
+pupil life-changing opportunities and
+an environment in which academic
+excellence is promoted through
+learning and shared experiences.</p>
+<div class="text-about">
+
+<p>With excellent facilities for teaching
+and learning, and committed and
+well-qualified teachers, our pupils are
+encouraged to fulfil and often exceed
+their potential. </p>
+
+<p>Zuva Academy is both academically ambitious and academically sensitive. Pupils are challenged to make the most of their abilities and take responsibility for
+their progress. 
+</p>
+
+<p>Those in need of specific
+additional support are identified and
+provided for in a well-established
+learning support unit.</p>
+<p>Pupils are encouraged to think ahead,
+to prepare not merely for O-Level and
+A-level, but also for the challenges
+and opportunities beyond school.</p>
+<p>Careers guidance is embedded in an
+extensive programme of personal
+and social education.</p>
+<p>Every individual at Zuva Academy
+counts. We ask nothing more from
+them than that they have the courage
+to be, not ordinary, but extraordinary,
+and to strive to do their very best; to be
+confident and proud of their academic
+achievements and to believe that there
+is no glass ceiling to their academic
+attainment.</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
   
  <div class="py-5"> 
  <div class="container"> 

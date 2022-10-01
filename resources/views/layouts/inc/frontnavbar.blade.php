@@ -56,7 +56,7 @@ a.ex1 {
 <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container">
-    <a class="navbar-brand" style=" color: #328fa8;font-family:Times New Roman;font-size: 25px;font-weight: bold;" href="{{url('/')}}">
+    <a class="navbar-brand" style=" color: #008000;font-family:Times New Roman;font-size: 40px;font-weight: bold;" href="{{url('/')}}">
 	  <img src="{{asset('frontend/image/logo1.png')}}" alt="Zuva Academy" width="60" height="60"> Zuva Academy
 	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,19 +65,19 @@ a.ex1 {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link ex1" aria-current="page" href="{{ url('/') }}">Home</a>
+          <a class="nav-link ex1" aria-current="page" href="{{ url('/') }}">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ex1"  href="{{ url('/about') }}">Why Choose Zuva Academy</a>
+          <a class="nav-link ex1"  href="{{ url('/about') }}">WHY CHOOSE ZUVA ACADEMY</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link ex1"  href="{{ url('/team') }}">Our Staff</a>
+          <a class="nav-link ex1"  href="{{ url('/team') }}">OUR STAFF</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link ex1" href="{{ url('/curriculum') }}">Curriculum</a>
+          <a class="nav-link ex1" href="{{ url('/curriculum') }}">CURRICULUM</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ex1" href="{{ url('/contact') }}">Contact</a>
+          <a class="nav-link ex1" href="{{ url('/contact') }}">CONTACT</a>
         </li>
 		 
         @if (Route::has('login'))
@@ -101,16 +101,16 @@ a.ex1 {
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-lg bg-light">
+<div class="rokon-notis">
 <div class="container mt-1">
     <div class="row">
         <div class="col-md-12">
             <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
-                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Notis</span></div>
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-success py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Notice</span></div>
                 <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </a> <span class="dot"></span> <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </a> <span class="dot"></span> <a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse </a>
                 </marquee>
             </div>
         </div>
     </div>
 </div>
-</nav>
+</div>

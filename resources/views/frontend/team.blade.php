@@ -24,31 +24,77 @@
     </style>
 
 
- <div class="container1">
+ 
+<!--
+<div class="container1">
   <img src="{{asset('frontend/image/ban2.jpg')}}" alt="Snow" style="width:100%;">
   
   <div class="centered" ><p style="text-shadow: 5px 5px 10px black; color:white;font-weight: bold; font-size: 150%;">Our Staff</p></div>
 </div> 
-<!--
-<div class="py-5"> 
-     
-       <div class="container"> 
-	   
-	   
-	   <div class="card mb-3">
-  <img src="{{asset('frontend/image/ban2.jpg')}}" class="card-img-top" alt="...">
-  <div class="card-body">
-   
-    <p class="card-text">Our people are at the heart of everything we do, and we would be nowhere without them! Above all else we value trust, openness and integrity. These principles transcend throughout the entire company, and reflect the way we do business with our customers.
-<br>
-Underlying each individual is an energy and commitment to not only the company but the industry itself and we love working with others who feel the same passion</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-   </div>
-   </div>
 -->
+ <!-- ======= herostaff Section ======= -->
+  <section id="herostaff" class="herostaff">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>OUR<span> STAFF</span></h2>
+		  {{--
+          <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+		  --}}
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="{{asset('frontend/image/logo5.png')}}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
 
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon">
+			  <img  src="{{asset('frontend/image/t6.jpg')}}" class="card-img-top" alt="...">
+			  </div>
+             <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon">
+			  <img  src="{{asset('frontend/image/t8.jpg')}}" class="card-img-top" alt="...">
+			  </div>
+              <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon">
+			  <img  src="{{asset('frontend/image/t7.jpg')}}" class="card-img-top" alt="...">
+			  </div>
+              <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End herostaff Section -->
 
 
    <div class="py-5"> 
@@ -63,13 +109,13 @@ Underlying each individual is an energy and commitment to not only the company b
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
       </div>
     </div>
   </div>
@@ -82,13 +128,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        
       </div>
     </div>
   </div>
@@ -101,13 +147,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        
       </div>
     </div>
   </div>
@@ -120,13 +166,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        
       </div>
     </div>
   </div>
@@ -139,13 +185,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
       </div>
     </div>
   </div>
@@ -158,13 +204,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
       </div>
     </div>
   </div>
@@ -177,13 +223,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        
       </div>
     </div>
   </div>
@@ -196,13 +242,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
       </div>
     </div>
   </div>
@@ -215,13 +261,13 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Mharadzirwa Kudakwashe Bryan</h5>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
         <p class="card-text">Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
 </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
       </div>
     </div>
   </div>

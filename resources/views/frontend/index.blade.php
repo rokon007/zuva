@@ -15,7 +15,7 @@
 	   <div class="card mb-3">
   <img src="{{asset('frontend/image/student40.png')}}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h4 class="card-title">Why choose zuva academy ? </h4>
+    <h4 class="card-title">WHY CHOOSE ZUVA ACADEMY ? </h4>
     <p class="card-text">1. A full education</p>
 	<p class="card-text">We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible ... ... ...
 </p>
@@ -52,7 +52,7 @@ A well-decorated handball coach with various Mash East province accolades from f
  <div class="py-1">
     <div class="container">
 	 <div class="col-xl-12 col-lg-12 col-md-12 text-center py-4">
-	<h2 style="font-weight: bold;">Curriculum</h2>
+	<h2 style="font-weight: bold; color:#008000;">CURRICULUM</h2>
 	</div>
 	<div class="row">
 	   <div class="col-md-4 mt-2">
@@ -103,7 +103,7 @@ A well-decorated handball coach with various Mash East province accolades from f
     <div class="py-3">
          <div class="container">
 		 <div class="col-xl-12 col-lg-12 col-md-12 text-center py-4">
-	<h2 style="font-weight: bold;">Our Staff</h2>
+	<h2 style="font-weight: bold; color:#008000;">OUR STAFF</h2>
 	</div>
 		 
 		    <div class="row">
