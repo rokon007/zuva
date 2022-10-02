@@ -56,7 +56,7 @@ a.ex1 {
 <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container">
-    <a class="navbar-brand" style=" color: #008000;font-family:Times New Roman;font-size: 40px;font-weight: bold;" href="{{url('/')}}">
+    <a class="navbar-brand" style=" color: #008000;font-family:Times New Roman;font-size: 30px;font-weight: bold;" href="{{url('/')}}">
 	  <img src="{{asset('frontend/image/logo1.png')}}" alt="Zuva Academy" width="60" height="60"> Zuva Academy
 	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

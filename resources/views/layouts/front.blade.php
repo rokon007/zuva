@@ -17,7 +17,7 @@
 	  <link href="frontend/css/owl.carousel.min.css" rel="stylesheet">
 	  <link href="frontend/css/owl.theme.default.min.css" rel="stylesheet">
 	  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-	   <link rel="shortcut icon" type="image/png" href="/frontend/image/favicon.jpg"/>
+	   <link rel="shortcut icon" type="image/ico" href="/frontend/image/favicon.ico"/>
       @yield('css')
 </head>
 <body>
