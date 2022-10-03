@@ -41,6 +41,7 @@ Route::middleware(['auth','is_admin'])->group(function(){
     //     return view('backend.dashboard.index');
     // })->name('dassboard');
     Route::get('/dassboard','Backend\BackendController@index')->name('dassboard');
+	Route::get('/profile','Backend\BackendController@indexProfile')->name('profile');
    // Route::get('/category','Frontend\CategoryController@index')->name('category');
    // Route::post('insert-category','Frontend\CategoryController@insertcategory');
     //Route::get('/category-view/{id}','Frontend\CategoryController@category_view')->name('category.view');

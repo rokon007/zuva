@@ -11,4 +11,9 @@ class BackendController extends Controller
     {
         return view('backend.dashboard.index');
     }
+	
+	public function indexProfile()
+    {
+        return view('backend.profile.index');
+    }
 }

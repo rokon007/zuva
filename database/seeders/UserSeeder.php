@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 class UserSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeds. 
      *
      * @return void
      */
@@ -18,10 +18,19 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->insert([
            'name' => 'Rokon',
-            'email' => 'rokon07@hotmail.com',
-			 'mobile' => '+8801717524792',
-            'password' => Hash::make('rokon007'),
-            'role_as' => '1',
+		   'firstname' => 'Rezaul',
+		   'lastname' => 'Karim',
+           'email' => 'rokon07@hotmail.com',
+		   'mobile' => '+8801717524792',
+           'password' => Hash::make('rokon007'),
+           'role_as' => '1',
+		   'image' => 'backend/upload/image/user/rokon.jpg',
+		   'address' => 'Haragach,Kaunia,Rangpur',
+		   'city' => 'Rangpur',
+		   'country' => 'Bangladesh',
+		   'zipcode' => '5400',
+		   'about' => 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem. ',
+			
             
             
             
