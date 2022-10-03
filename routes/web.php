@@ -29,3 +29,23 @@ Route::get('/home2',[FrontendController::class,'index_index2']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+
+Route::middleware(['auth','is_admin'])->group(function(){
+    // Route::get('/dassboard',function(){
+    //     return view('backend.dashboard.index');
+    // })->name('dassboard');
+    Route::get('/dassboard','Backend\BackendController@index')->name('dassboard');
+   // Route::get('/category','Frontend\CategoryController@index')->name('category');
+   // Route::post('insert-category','Frontend\CategoryController@insertcategory');
+    //Route::get('/category-view/{id}','Frontend\CategoryController@category_view')->name('category.view');
+    //Route::get('/category-edit/{id}','Frontend\CategoryController@category_edit')->name('category.edit');
+   // Route::delete('/category/delete/{id}','Frontend\CategoryController@destroy');
+    //Route::resource('product', 'Frontend\ProductController');
+    });
+

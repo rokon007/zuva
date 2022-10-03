@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Auth;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -36,5 +38,32 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+	 public function login(Request $request)
+    {
+
+            $validated = $request->validate([
+        'email' => 'required|email',
+        'password' => 'required',
+    ]);
+            if(Auth::attempt(['email'=>$request->email,'password'=>$request->password])){
+
+               // yes its user
+                if(auth()->user()->role_as==1){
+                    //its an admin
+                    return redirect()->route('dassboard');
+                }
+                else{
+                   // its normal user
+                    return redirect()->route('home');
+                }
+                
+            }
+            else{
+                //invalid credential
+                return redirect()->route('login')->with('error','Invalid Credential');
+            }
+
+
     }
 }
