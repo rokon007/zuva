@@ -884,5 +884,5 @@
   
   
   @section('JS')
-  @include('backend.layouts.inc.JS') 
+  @include('backend.layouts.inc.js') 
   @endsection
