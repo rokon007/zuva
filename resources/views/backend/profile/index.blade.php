@@ -39,36 +39,39 @@
             <!--end breadcrumb-->
            
             <div class="profile-cover bg-dark"></div>
-
             <div class="row">
               <div class="col-12 col-lg-8">
                 <div class="card shadow-sm border-0">
                   <div class="card-body">
+				  <form action="{{route('user.update')}}" method="post" enctype="multipart/form-data">
+         @csrf
                       <h5 class="mb-0">My Account</h5>
-                      <hr>
+                      <hr>					 
                       <div class="card shadow-none border">
                         <div class="card-header">
                           <h6 class="mb-0">USER INFORMATION</h6>
                         </div>
+						
                         <div class="card-body">
-                          <form class="row g-3">
+                          <div class="row g-3">
+						        <input type="hidden" name="id"  value="{{auth()->user()->id}}">
                              <div class="col-6">
                                 <label class="form-label">Username</label>
-                                <input type="text" name="" class="form-control" value="{{auth()->user()->name}}">
+                                <input type="text" name="name" class="form-control" value="{{auth()->user()->name}}">
                              </div>
                              <div class="col-6">
                               <label class="form-label">Email address</label>
-                              <input type="text" name="" class="form-control" value="{{auth()->user()->email}}">
+                              <input type="text" name="email" class="form-control" value="{{auth()->user()->email}}">
                             </div>
                               <div class="col-6">
                                 <label class="form-label">First Name</label>
-                                <input type="text" name="" class="form-control" value="{{auth()->user()->firstname}}">
+                                <input type="text" name="firstname" class="form-control" value="{{auth()->user()->firstname}}">
                             </div>
                             <div class="col-6">
                                 <label class="form-label">Last Name</label>
-                                <input type="text" name="" class="form-control" value="{{auth()->user()->lastname}}">
+                                <input type="text" name="lastname" class="form-control" value="{{auth()->user()->lastname}}">
                             </div>
-                          </form>
+                          </div>
                         </div>
                       </div>
                       <div class="card shadow-none border">
@@ -76,37 +79,42 @@
                           <h6 class="mb-0">CONTACT INFORMATION</h6>
                         </div>
                         <div class="card-body">
-                          <form class="row g-3">
+                          <div class="row g-3">
                             <div class="col-12">
                               <label class="form-label">Address</label>
-                              <input type="text" name="" class="form-control" value="{{auth()->user()->address}}">
+                              <input type="text" name="address" class="form-control" value="{{auth()->user()->address}}">
                              </div>
                              <div class="col-6">
                                 <label class="form-label">City</label>
-                                <input type="text" name="" class="form-control" value="{{auth()->user()->city}}">
+                                <input type="text" name="city" class="form-control" value="{{auth()->user()->city}}">
                              </div>
                              <div class="col-6">
                               <label class="form-label">Country</label>
-                              <input type="text" name="" class="form-control" value="{{auth()->user()->country}}">
+                              <input type="text" name="country" class="form-control" value="{{auth()->user()->country}}">
                             </div>
                               <div class="col-6">
-                                <label class="form-label">Pin Code</label>
-                                <input type="text" name="" class="form-control" value="{{auth()->user()->zipcode}}">
+                                <label class="form-label">Zip Code</label>
+                                <input type="text" name="zipcode" class="form-control" value="{{auth()->user()->zipcode}}">
                             </div>
-                            <div class="col-6">
-                                <label class="form-label">Last Name</label>
-                                <input type="text" name="" class="form-control" value="{{auth()->user()->about}}">
+							<div class="col-6">
+                                <label class="form-label">Phone</label>
+                                <input type="text" name="mobile" class="form-control" value="{{auth()->user()->mobile}}">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Image</label>
+                                <input class="form-control" name="image" type="file" id="formFile">
                             </div>
                             <div class="col-12">
                               <label class="form-label">About Me</label>
-                              <textarea class="form-control" name="" rows="4" cols="4" placeholder="Describe yourself..."> {{auth()->user()->about}}</textarea>
+                              <textarea class="form-control" name="about" rows="4" cols="4" placeholder="Describe yourself..."> {{auth()->user()->about}}</textarea>
                              </div>
-                          </form>
+                          </div>
                         </div>
                       </div>
                       <div class="text-start">
-                        <button type="button" class="btn btn-primary px-4">Update</button>
+                        <button type="submit" class="btn btn-primary px-4">Update</button>
                       </div>
+					  </form>
                   </div>
                 </div>
               </div>

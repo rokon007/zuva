@@ -40,6 +40,20 @@
               </ul>
             </li>
             <li class="menu-label">UI Elements</li>
+			<li>
+              <a href="javascript:;" class="has-arrow">
+                <div class="parent-icon"><i class="bi bi-grid"></i>
+                </div>
+                <div class="menu-title">Notice</div>
+              </a>
+              <ul>
+                <li> <a href="{{ route('notice.index') }}"><i class="bi bi-arrow-right-short"></i>Notice</a>
+                </li>
+                <li> <a href="{{ route('notice.create') }}"><i class="bi bi-arrow-right-short"></i>Add Notice</a>
+                </li>   
+              </ul>
+            </li>
+            <li class="menu-label">UI Elements</li>
             <li>
               <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class="bi bi-award"></i>
