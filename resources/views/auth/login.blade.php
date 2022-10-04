@@ -1,135 +1,3 @@
-{{--
-
-@extends('layouts.front')
-
-@section('title')
- Zuva Academy
-@endsection
-
-
-@section('content')
-
-<style>
-       .container1 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-     /* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-    </style>
-
-
- <div class="container1">
-  <img src="{{asset('frontend/image/d3.webp')}}" alt="Snow" style="width:100%;">
-  
-  <div class="centered" ><p style="color:white;font-weight: bold; font-size: 300%;">Login</p></div>
-</div> 
-   <!-- Wrapper container -->
-<div class="container py-4">
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
-
-                        <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- SB Forms JS -->
-<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-	
-@endsection
-@section('script')
-       <script>
-      $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-      </script>
-@endsection  
-
---}}
 
 <!doctype html>
 <html lang="en" class="light-theme">
@@ -165,7 +33,7 @@
             <div class="card shadow rounded-0 overflow-hidden">
               <div class="row g-0">
                 <div class="col-lg-6 bg-login d-flex align-items-center justify-content-center">
-                  <img src="assets/images/error/login-img.jpg" class="img-fluid" alt="">
+                  <img src="backend/assets/images/error/login-img.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6">
                   <div class="card-body p-4 p-sm-5">
@@ -176,7 +44,7 @@
                     <div class="form-body">
                       <div class="d-grid">
                         <a class="btn btn-white radius-30" href="javascript:;"><span class="d-flex justify-content-center align-items-center">
-                            <img class="me-2" src="assets/images/icons/search.svg" width="16" alt="">
+                            <img class="me-2" src="backend/assets/images/icons/search.svg" width="16" alt="">
                             <span>Sign in with Google</span>
                           </span>
                         </a>
