@@ -45,8 +45,8 @@ class FrontendController extends Controller
 	
 	  public function notice($id){
 		$notice = Notice::where('status',1)->orderBy('created_at', 'DESC')->take(10)->get();  
-       //$notice1 = Notice::where('id', $id)->first();
-	    $notice1 =Notice::find($id);
+        $notice1 = Notice::where('id', $id)->first();
+	   // $notice1 =Notice::find($id);
         $notices = Notice::all()->random()->limit(3)->get();
 		
         
