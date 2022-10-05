@@ -202,6 +202,15 @@
 </div>
 </div>
 
+<div class="col-md-4 col-sm-1 mt-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Agriculture</h5>
+    
+  </div>
+</div>
+</div>
+
 </div>
 
 </div>

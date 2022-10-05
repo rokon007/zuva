@@ -11,13 +11,13 @@
      
        <div class="container"> 
 	   
-	   
+	
 	   <div class="card mb-3">
   <img src="{{asset('frontend/image/student40.png')}}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h4 class="card-title">WHY CHOOSE ZUVA ACADEMY ? </h4>
-    <p class="card-text">1. A full education</p>
-	<p class="card-text">We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible ... ... ...
+  <div class="card-body  bg-gradient-warning">
+    <h4 class="card-title" style="text-shadow: 3px 3px 3px #FFFF00;font-family:times new roman;font-weight: bold;color: #008000;">WHY CHOOSE ZUVA ACADEMY ? </h4>
+    <p class="card-text" style="font-family:times new roman;font-weight: bold;color: #FFFF00;">1. A full education</p>
+	<p class="card-text" style="font-family:times new roman;font-weight: bold;">We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible ... ... ...
 </p>
     <p class="card-text"><small class="text-muted"><a href="{{ url('/about') }}">Read more</a></small></p>
   </div>
