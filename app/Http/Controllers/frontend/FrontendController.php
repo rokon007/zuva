@@ -45,7 +45,8 @@ class FrontendController extends Controller
 	
 	  public function notice($id){
 		$notice = Notice::where('status',1)->orderBy('created_at', 'DESC')->take(10)->get();  
-       // $notice1 = Notice::where('id', $id)->first();
+       //$notice1 = Notice::where('id', $id)->first();
+	    $notice1 =Notice::find($id);
         $notices = Notice::all()->random()->limit(3)->get();
 		
         
@@ -66,7 +67,7 @@ class FrontendController extends Controller
 			
 
         if($notice){
-            return view('frontend.notice', compact(['notice','notices', 'firstRelatedNotice', 'firstRelatedNotice2', 'lastRelatedNotice']));
+            return view('frontend.notice', compact(['notice','notice1', 'notices', 'firstRelatedNotice', 'firstRelatedNotice2', 'lastRelatedNotice']));
         }else {
             return redirect('/');
         }
