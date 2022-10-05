@@ -30,7 +30,7 @@
                            
                         </header>
                         <!-- Preview image figure-->
-                        <figure class="mb-4"><img class="img-fluid rounded" style="height:50%;width:50%;" src="{{ $notice1->image }}" alt="..." /></figure>
+                        <figure class="mb-4"><img class="img-fluid rounded" style="height:100%;width:100%;" src="{{ $notice1->image }}" alt="..." /></figure>
                         <!-- Post content-->
                         <section class="mb-5">
                             <p> {!! $notice1->description !!}.</p>
@@ -116,9 +116,9 @@ Example fallback content: This browser does not support PDFs. Please download th
                             @foreach($notices as $notic)
                             <li>
                                 <a href="{{ route('view.notice', [$notic->id]) }}">
-								 <figure class="mb-4"><img class="img-fluid rounded" style="height:35%;weidh:40%" src="{{ $notic->image }}" alt="..." /></figure>
+								
                                     <img src="{{ $notic->image }}" alt="Image placeholder"
-                                         class="img-fluid mb-5" onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>
+                                         class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>
                                     <div class="text">
                                         <h4> {{ $notic->title }} </h4>
                                         <div class="post-meta">
@@ -141,14 +141,17 @@ Example fallback content: This browser does not support PDFs. Please download th
 						
 						 <div class="card-body order-md-2">
                 @foreach($lastRelatedNotice as $post)
-                <a href="{{ route('view.notice', ['id' => $post->id]) }}" class="hentry img-1 h-100 gradient"
+                <a href="{{ route('view.notice', ['id' => $post->id]) }}">
+			<div class="hentry img-1 h-100 gradient"
                     style="background-image: url('{{ $post->image }}');">
-					 <figure class="mb-4"><img class="img-fluid rounded" style="height:35%;weidh:40%" src="{{ $post->image }}" alt="..." /></figure>
+				 <img src="{{ $post->image }}" alt="Image placeholder"
+                                         class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>	 
                     <span class="post-category text-white bg-danger"></span>
                     <div class="text">
                         <h4>{{ $post->title }}</h4>
                         <span>{{ $post->created_at->format('M d, Y')}}</span>
                     </div>
+					</div>
                 </a>
                 @endforeach
                   </div>
@@ -157,7 +160,8 @@ Example fallback content: This browser does not support PDFs. Please download th
                 @foreach($firstRelatedNotice as $post)
                 <a href="{{ route('view.notice', ['id' => $post->id]) }}" class="hentry img-1 h-100 gradient"
                     style="background-image: url('{{ $post->image }}');">
-					 <figure class="mb-4"><img class="img-fluid rounded" style="height:35%;weidh:40%" src="{{ $post->image }}" alt="..." /></figure>
+					 <img src="{{ $post->image }}" alt="Image placeholder"
+                                         class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>	 
                     <span class="post-category text-white bg-danger"></span>
                     <div class="text">
                         <h4>{{ $post->title }}</h4>
@@ -171,6 +175,8 @@ Example fallback content: This browser does not support PDFs. Please download th
                 @foreach($firstRelatedNotice2 as $post)
                 <a href="{{ route('view.notice', ['id' => $post->id]) }}" class="hentry img-1 h-100 gradient"
                     style="background-image: url('{{ $post->image }}');">
+					 <img src="{{ $post->image }}" alt="Image placeholder"
+                                         class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>	 
                     <span class="post-category text-white bg-danger"></span>
                     <div class="text">
                         <h4>{{ $post->title }}</h4>
