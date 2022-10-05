@@ -148,7 +148,7 @@ A well-decorated handball coach with various Mash East province accolades from f
 						<p style="font-family: Arial narrow;">{{$staff->position}}</p>
 					  </div>
 					 
-					   <button class="btn btn-danger form-control"> <a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
+					   <button class="btn btn-danger form-control"> <a href="{{ route('staff.profile', [$staff->id]) }}" style="color:white;">VIEW PROFILE</a><button>
 					 
 				   </div>
 			   </div>

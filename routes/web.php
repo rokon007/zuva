@@ -25,6 +25,7 @@ Route::get('/team',[FrontendController::class,'index_team']);
 Route::get('/contact',[FrontendController::class,'index_contact']);
 Route::get('/curriculum',[FrontendController::class,'index_curriculum']);
 Route::get('/notice-display/{id}',[FrontEndController::class,'notice'])->name('view.notice');
+Route::get('/staff-profile/{id}',[FrontendController::class,'staffprofile'])->name('staff.profile');
 Route::get('/home2',[FrontendController::class,'index_index2']);
 
 Auth::routes();

@@ -59,20 +59,17 @@ class FrontendController extends Controller
         $firstRelatedNotice2 = $relatedNotice->splice(0, 2);
         $lastRelatedNotice = $relatedNotice->splice(0, 1);
 
-        
-        
-		
-		
-		
-		
-           
-		
-			
-
         if($notice){
             return view('frontend.notice', compact(['notice','notice1', 'notices', 'firstRelatedNotice', 'firstRelatedNotice2', 'lastRelatedNotice']));
         }else {
             return redirect('/');
         }
     }
+	
+	 public function staffprofile($id)
+	 {
+		$employee = Employee::where('id', $id)->first();
+		$notice = Notice::where('status',1)->orderBy('created_at', 'DESC')->take(10)->get();
+      return view('frontend.staff_profile', compact('notice','employee')); 
+	 }
 }
