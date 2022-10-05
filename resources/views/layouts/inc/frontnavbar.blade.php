@@ -41,8 +41,9 @@ a.ex1:hover {
 a.ex1 {
   
   
-  color: #666699;
-  font-family:Times New Roman;
+  color: #008000;
+ font-family: Arial narrow;
+ font-weight: bold;
   font-size: 18px;
   text-decoration: none;
   
@@ -83,7 +84,7 @@ a.ex1 {
         @if (Route::has('login'))
          @auth
          <li class="nav-item ">
-               <a class="nav-link ex1"  href="{{ url('/dassboard') }}">Dassboard</a>
+               <a class="nav-link ex1"  href="{{ url('/dassboard') }}">DASHBOARD</a>
          </li>
           @else
     <!--    <li class="nav-item">

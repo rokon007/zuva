@@ -222,7 +222,7 @@
 <div class="col-md-6 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Brick and Block laying</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Brick And Block Laying</h5>
    
   </div>
 </div>
@@ -232,7 +232,7 @@
 <div class="col-md-6 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Building Technology and design</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Building Technology And Design</h5>
     
   </div>
 </div>
@@ -350,7 +350,7 @@ attainment.</p>
       <a href="/w3images/fjords.jpg">
         <img src="{{asset('frontend/image/sport30.png')}}" alt="Lights" style="width:100%">
         <div class="caption">
-          <p>SCIENCE</p>
+          <p class="text-center">SCIENCE</p>
         </div>
       </a>
     </div>
@@ -360,7 +360,7 @@ attainment.</p>
       <a href="/w3images/nature.jpg">
         <img src="{{asset('frontend/image/sport20.png')}}" alt="Nature" style="width:100%">
         <div class="caption">
-          <p>AGRICULTURE</p>
+          <p class="text-center">AGRICULTURE</p>
         </div>
       </a>
     </div>
@@ -370,7 +370,7 @@ attainment.</p>
       <a href="/w3images/fjords.jpg">
         <img src="{{asset('frontend/image/sport1.png')}}" alt="Fjords" style="width:100%">
         <div class="caption">
-          <p>SPORT</p>
+          <p class="text-center">SPORT</p>
         </div>
       </a>
     </div>
@@ -378,9 +378,9 @@ attainment.</p>
    <div class="col-md-3">
     <div class="thumbnail">
       <a href="/w3images/fjords.jpg">
-        <img src="{{asset('frontend/image/sport30.png')}}" alt="Fjords" style="width:100%">
+        <img src="{{asset('frontend/image/sport5.png')}}" alt="Fjords" style="width:100%">
         <div class="caption">
-          <p>SCIENCE</p>
+          <p class="text-center">BRICK AND BLOCK LAYING</p>
         </div>
       </a>
     </div>
