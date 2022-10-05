@@ -137,31 +137,22 @@ A well-decorated handball coach with various Mash East province accolades from f
 			
 			
 			
-			 @if($employee->count())
-                                @foreach ($employee as $staff)
+			
           
 			   <div class="item">
 			       <div class="card">
-				    <img src="{{$staff->images}}" class="rounded" alt="...">      
+				    <img src="{{asset('frontend/image/t1.jpg')}}" class="rounded" alt="...">      
 				      <div class="card-body">
-					    <h5>{{$staff->first_name}} {{$staff->last_name}}</h5>
-						<p>{{$staff->position}}</p>
+					    <h5>Mharadzirwa Kudakwashe Bryan</h5>
+						<p>Mathematics teacher </p>
 					  </div>
 					 
 					   <button class="btn btn-danger form-control"> <a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
 					 
 				   </div>
 			   </div>
-			    @endforeach
-                                @else   
-                                    <tr>
-                                        <td colspan="6">
-                                            <h5 class="text-center">No posts found.</h5>
-                                        </td>
-                                    </tr>
-                                @endif 
 			   
-			   {{-- <div class="item">
+			   <div class="item">
 			       <div class="card">
 				  <!-- <img src="{{asset('frontend/image/staff2.jpeg')}}" alt="product image">-->
 				   <img src="{{asset('frontend/image/t2.jpg')}}" class="rounded" alt="...">
@@ -271,14 +262,10 @@ A well-decorated handball coach with various Mash East province accolades from f
 					   <button class="btn btn-danger form-control"><a href="{{url('/team')}}" style="color:white;">VIEW PROFILE</a><button>
 					 
 				   </div>
-			   </div>--}}
+			   </div>
 			   
 			   </div>
 			</div>
-			 <div class="col-xl-12 col-lg-12 col-md-12 text-center py-4">
-	 <a class="btn btn-success " href="{{url('/team')}}" style="color:white;">OUR STAFF PROFILE</a>
-	</div>
-			
 		 </div>
      </div>
 	 @include('layouts.inc.footer1')

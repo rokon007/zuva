@@ -8,14 +8,16 @@ use App\Models\Notice;
 use Share;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
+use App\Models\Employee;
 
 
 class FrontendController extends Controller
 {
     public function index()
     {
+		$employee = Employee::where('status',1)->get();
 		$notice = Notice::where('status',1)->orderBy('created_at', 'DESC')->take(10)->get();
-      return view('frontend.index', compact('notice'));
+      return view('frontend.index', compact('notice','employee'));
     }
 	
 	 public function index_about()

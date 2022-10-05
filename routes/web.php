@@ -42,7 +42,7 @@ Route::middleware(['auth','is_admin'])->group(function(){
     Route::get('/dassboard','Backend\BackendController@index')->name('dassboard');
 	Route::get('/profile','Backend\BackendController@indexProfile')->name('profile');
 	Route::post('/user-update','Backend\BackendController@userUpdate')->name('user.update');
-   
+    Route::resource('employee', 'Backend\EmployeeController');
     Route::resource('notice', 'Backend\NoticeController');
     });
 
