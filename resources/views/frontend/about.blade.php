@@ -112,7 +112,7 @@
 </div>&nbsp;&nbsp;&nbsp;
       <p class="pb-3 mb-0 small lh-sm border-bottom">
         <strong class="d-block text-warning">A full education</strong>
-       We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible enrichment these subjects can bring to a child’s life and future.
+      We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible enrichment these subjects can bring to a child’s life and future.
 </p>
       </p>
     </div>
