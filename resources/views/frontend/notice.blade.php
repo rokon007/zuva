@@ -30,28 +30,29 @@
                            
                         </header>
                         <!-- Preview image figure-->
-                        <figure class="mb-4"><img class="img-fluid rounded" style="height:100%;width:100%;" src="{{ $notice1->image }}" alt="..." /></figure>
+						<div class="row">
+						<div class="d-flex justify-content-center  mb-4">
+						   <img class="img-fluid rounded" style="height:100%;width:100%;" src="{{ $notice1->image }}" alt="..." />
+						</div>
+						</div>
+                        <figure class="mb-4">
+						
+						</figure>
                         <!-- Post content-->
-                        <section class="mb-5">
-                            <p> {!! $notice1->description !!}.</p>
-                           
-                          
-                            
-                        </section>
-                    </article>
-					<iframe src="{{ $notice1->pdf }}" style="height:100%;width:100%;" > {{ $notice1->pdf }}</iframe>
-					<section class="mb-5">
-                        <div class="card bg-light">
-                            <div class="card-body">
-							
-							</div>
+                        <div class=" card mb-5 bg-light">
+						 <div class="card-body">
+						<h5>
+                          <small class="text-muted">
+					        {!! $notice1->description !!}.
+					       </small>
+                       </h5>
+                          </div>   
                         </div>
-						<object data=”/pdf/sample-3pp.pdf#page=2" type=”application/pdf” width=”100%” height=”100%”>
-
-Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
-
-</object>
-					</section>
+						
+                    </article>
+					<div class="d-flex justify-content-center  mb-4">
+					<iframe src="{{ $notice1->pdf }}" style="height:100%;width:100%;" > {{ $notice1->pdf }}</iframe>
+					</div>
                     <!-- Comments section-->
 					{{-- <section class="mb-5">
                         <div class="card bg-light">
@@ -120,7 +121,7 @@ Example fallback content: This browser does not support PDFs. Please download th
                                     <img src="{{ $notic->image }}" alt="Image placeholder"
                                          class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>
                                     <div class="text">
-                                        <h4> {{ $notic->title }} </h4>
+                                        <h5> {{ $notic->title }} </h5>
                                         <div class="post-meta">
                                             <span class="mr-2"> {{ $notic->created_at->format('M d, Y')}} </span>
                                         </div>
@@ -148,7 +149,7 @@ Example fallback content: This browser does not support PDFs. Please download th
                                          class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>	 
                     <span class="post-category text-white bg-danger"></span>
                     <div class="text">
-                        <h4>{{ $post->title }}</h4>
+                        <h5>{{ $post->title }}</h5>
                         <span>{{ $post->created_at->format('M d, Y')}}</span>
                     </div>
 					</div>
@@ -164,7 +165,7 @@ Example fallback content: This browser does not support PDFs. Please download th
                                          class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>	 
                     <span class="post-category text-white bg-danger"></span>
                     <div class="text">
-                        <h4>{{ $post->title }}</h4>
+                        <h5>{{ $post->title }}</h5>
                         <span>{{ $post->created_at->format('M d, Y')}}</span>
                     </div>
                 </a>
@@ -179,7 +180,7 @@ Example fallback content: This browser does not support PDFs. Please download th
                                          class="img-fluid mb-5 rounded"  onerror="this.onerror=null;this.src='uploads/image/non.jpg';"/>	 
                     <span class="post-category text-white bg-danger"></span>
                     <div class="text">
-                        <h4>{{ $post->title }}</h4>
+                        <h5>{{ $post->title }}</h5>
                         <span>{{ $post->created_at->format('M d, Y')}}</span>
                     </div>
                 </a>
