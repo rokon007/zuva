@@ -21,14 +21,15 @@ class FrontendController extends Controller
     }
 	
 	 public function index_about()
-    {
+    {		
 		$notice = Notice::where('status',1)->orderBy('created_at', 'DESC')->take(10)->get();
       return view('frontend.about', compact('notice'));
     }
 	 public function index_team()
     {
+		$employee = Employee::where('status',1)->get();
 		$notice = Notice::where('status',1)->orderBy('created_at', 'DESC')->take(10)->get();
-      return view('frontend.team', compact('notice'));
+      return view('frontend.team', compact('notice','employee'));
     }
 	 public function index_contact()
     {

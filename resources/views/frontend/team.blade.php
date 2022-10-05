@@ -100,28 +100,35 @@
    <div class="py-5"> 
      
        <div class="container"> 
-	   
+	    @if($employee->count())
+             @foreach ($employee as $staff)
 	   
 	  <div class="card mb-3 mt-2" style="max-width: 100%;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="{{asset('frontend/image/t1.jpg')}}" class="img-fluid rounded-start" alt="...">
+      <img src="{{$staff->images}}" class="img-fluid rounded-start" style="height:200px;width: 200px; alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
-        <p class="card-text">Experienced mathematics teacher with a career spanning a decade
-Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
-<br>
-A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.
-</p>
+        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">{{$staff->first_name}} {{$staff->last_name}}</h5>
+		<h6 class="card-text">{{$staff->position}}</h6>
+        <p class="card-text">{{$staff->description}}</p>
+
        
       </div>
     </div>
   </div>
 </div>
+ @endforeach
+                                @else   
+                                    <tr>
+                                        <td colspan="6">
+                                            <h5 class="text-center">No posts found.</h5>
+                                        </td>
+                                    </tr>
+                                @endif 
 	   
-	 <div class="card mb-3 mt-2" style="max-width: 100%;">
+	   {{--	 <div class="card mb-3 mt-2" style="max-width: 100%;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="{{asset('frontend/image/t2.jpg')}}" class="img-fluid rounded-start" alt="...">
@@ -272,7 +279,7 @@ A well-decorated handball coach with various Mash East province accolades from f
     </div>
   </div>
 </div>
-
+	   --}}
  
 
 
