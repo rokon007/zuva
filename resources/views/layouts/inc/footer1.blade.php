@@ -2,11 +2,18 @@
     <!----------- Footer ------------>
     <footer class="footer-bs footer-section">
         <div class="row">
-        	<div class="col-md-6 footer-brand animated fadeInLeft py-5">
+        	<div class="col-md-2 footer-brand animated fadeInLeft py-5">
 			<center>
             	 <a href="index.html"><img src="{{asset('frontend/image/logo.jpeg')}}" style="max-width: 60px;flot:right;" class="img-fluid" alt="logo"></a>
                 <p></p>
                </center>
+            </div>
+			
+			<div class="col-md-4 footer-brand animated ">
+			<p><i class="fa-sharp fa-solid fa-phone"></i> &nbsp;  &nbsp;&nbsp;0719586160; &nbsp;0781501648</p>
+			<p><i class="fa-sharp fa-solid fa-envelope"></i> &nbsp;  &nbsp;&nbsp;info@zuvaacademy.com</p>
+        <p><i class="fa-sharp fa-solid fa-earth-americas"></i> &nbsp; &nbsp; &nbsp;www.zuvaacademy.com</p>
+          <p><i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp;Lot 1 of Risboro Farm,Chegutu</p>
             </div>
         	<!--<div class="col-md-4 footer-nav animated fadeInUp">
             	 <p>© 2014 BS3 UI Kit, All rights reserved</p>

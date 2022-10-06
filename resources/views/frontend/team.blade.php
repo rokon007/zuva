@@ -116,7 +116,7 @@
 	  <div class="card mb-3 mt-2" style="max-width: 100%;">
   <div class="row g-0">
     <div class="col-md-4 col-sm-1">
-      <img src="{{$staff->images}}" width="200" class="img-fluid mb-2 img-thumbnail rounded-start"  alt="...">
+      <img src="{{$staff->images}}" class="img-fluid mb-2 img-thumbnail rounded-start"  alt="...">
     </div>
     <div class="col-md-8 col-sm-1">
       <div class="card-body">

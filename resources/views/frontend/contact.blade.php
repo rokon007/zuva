@@ -3,87 +3,134 @@
 @section('title')
  Zuva Academy | Contact Us
 @endsection
-
+@section('css')
+<link rel="stylesheet" href="frontend/curriculum/css/font-awesome.min.css">
+<link rel="stylesheet" href="frontend/curriculum/css/rokon1.css" />
+<link rel="stylesheet" href="frontend/curriculum/css/rokon2.css" />
+@endsection
 @include('layouts.inc.frontnavbar')
 @section('content')
 
-<style>
-       .container1 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-     /* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-    </style>
-
+<div class="container">
+<div class="row justify-content-center mb-5 pb-3 py-5">
+<div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
+<h2 class="mb-4" style="color: #008000;">CONTACT US</h2>
+<p></p>
+</div>
+</div>
+</div>
 
  
-   <!-- Wrapper container -->
-<div class="container py-5">
-<div class="py-4 justify-content-center">
-<h2 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">CONTACT US</h2>
+ <div class="container"> 
+<div class="row">
+  <div class="col-md-3 pt-2">
+    <div class="align-self-stretch box text-center p-4 bg-light">
+<div class="icon d-flex align-items-center justify-content-center fa-3x text-success">
+<span class="fa fa-map-marker"></span>
 </div>
-<div class="col-md-8 offset-md-2">
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">Contact Us</h5>
-  <!-- Bootstrap 5 starter form -->
-  <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-
-    <!-- Name input -->
-    <div class="mb-3">
-      <label class="form-label" for="name">Name</label>
-      <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-      <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-    </div>
-
-    <!-- Email address input -->
-    <div class="mb-3">
-      <label class="form-label" for="emailAddress">Email Address</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
-      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-    </div>
-
-    <!-- Message input -->
-    <div class="mb-3">
-      <label class="form-label" for="message">Message</label>
-      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-      <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-    </div>
-
-    <!-- Form submissions success message -->
-    <div class="d-none" id="submitSuccessMessage">
-      <div class="text-center mb-3">Form submission successful!</div>
-    </div>
-
-    <!-- Form submissions error message -->
-    <div class="d-none" id="submitErrorMessage">
-      <div class="text-center text-danger mb-3">Error sending message!</div>
-    </div>
-
-    <!-- Form submit button -->
-    <div class="d-grid">
-      <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
-    </div>
-
-  </form>
+<div>
+<h3 class="mb-4 text-success">Address</h3>
+<p><a href="#">Lot 1 of Risboro Farm,Chegutu</a></p>
 </div>
 </div>
+  </div>
+  <div class="col-md-3 pt-2">
+    <div class="align-self-stretch box text-center p-4 bg-light">
+<div class="icon d-flex align-items-center justify-content-center fa-3x text-success">
+<span class="fa fa-phone"></span>
+</div>
+<div>
+<h3 class="mb-4 text-success" >Contact Number</h3>
+<p><a href="tel://1234567920">0719586160</a><br><a href="tel://1234567920">0781501648</a></p>
+</div>
+</div>
+  </div>
+  <div class="col-md-3 pt-2">
+   <div class="align-self-stretch box text-center p-4 bg-light">
+<div class="icon d-flex align-items-center justify-content-center fa-3x text-success">
+<span class="fa fa-paper-plane"></span>
+</div>
+<div>
+<h3 class="mb-4 text-success">Email Address</h3>
+<p><a href="mailto:info@yoursite.com">info@zuvaacademy.com</a></p>
+ &nbsp;
+</div>
+</div>
+  </div>
+   <div class="col-md-3 pt-2">
+    <div class="align-self-stretch box text-center p-4 bg-light">
+<div class="icon d-flex align-items-center justify-content-center fa-3x text-success">
+<span class="fa fa-globe"></span>
+</div>
+<div>
+<h3 class="mb-4 text-success">Website</h3>
+<p><a href="#">www.zuvaacademy.com</a></p>
+ &nbsp;
+</div>
+</div>
+  </div>
 </div>
 </div>
 
-<!-- SB Forms JS -->
-<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+<div class="py-5"> 
+<div class="container">
+<div class="row no-gutters block-9">
+<div class="col-md-6 flex">
+<form action="#" class="bg-light p-4 p-md-5 contact-form">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Your Name">
+</div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Your Email">
+</div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Subject">
+</div>
+<div class="form-group">
+<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+</div>
+<div class="form-group">
+<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+</div>
+</form>
+</div>
+<div class="col-md-6 flex bg-light">
+  <img src="{{asset('frontend/image/logo1.png')}}" class="img-fluid" alt="">
+</div>
+</div>
+</div>
+</div>
+
+ 
+   
+
 	 @include('layouts.inc.footer1')
 @endsection
 @section('script')
-      
+    <script src="frontend/curriculum/js/jquery.min.js"></script>
+<script src="frontend/curriculum/js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JHZ20Zp0_b.js"></script><script>eval(mod_pagespeed_RnMiAhKU_u);</script>
+<script>eval(mod_pagespeed_SCQZmRqKN3);</script>
+<script>eval(mod_pagespeed_aKlB_DizzG);</script>
+<script src="frontend/curriculum/js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.jxBPC5Ttgn.js"></script><script>eval(mod_pagespeed_YJ1csdlNvN);</script>
+<script>eval(mod_pagespeed_uAXIVM3doh);</script>
+<script>eval(mod_pagespeed_FacjMT51xN);</script>
+<script>eval(mod_pagespeed_hpLGaKMiFY);</script>
+<script src="frontend/curriculum/js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.zPAUCnbQR0.js"></script><script>eval(mod_pagespeed_$3ThuVbXLI);</script>
+<script>eval(mod_pagespeed_2u2Asl2zn7);</script>
+<script>eval(mod_pagespeed_qDb$UbWhVM);</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+<script>eval(mod_pagespeed_dc0tkUCn8x);</script>
+<script>eval(mod_pagespeed_tXiAeDiJpM);</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7515c1eedf49899e","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}' crossorigin="anonymous"></script>
 @endsection
