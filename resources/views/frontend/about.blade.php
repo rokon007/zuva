@@ -105,14 +105,14 @@
        <div class="container">
   
   <div class="my-3 p-3 bg-body rounded shadow-sm">
-    <h3 class="border-bottom pb-2 mb-0" style="text-shadow: 3px 3px 3px #FFFF00;font-family:times new roman;font-weight: bold;color: #008000;">WHY CHOOSE ZUVA ACADEMY?</h3>
+    <h3 class="border-bottom pb-2 mb-0 text-center" style="font-family:times new roman;font-weight: bold;color: #008000;">WHY CHOOSE ZUVA ACADEMY?</h3>
     <div class="d-flex text-muted pt-3">
      <div class="fa-2x">
   <i class="fa-solid " width="32" height="32" >1.</i>
 </div>&nbsp;&nbsp;&nbsp;
       <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-warning" style="font-family: Arial narrow;font-size: 18px;font-weight: bold;">A full education</strong>
-      We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible enrichment these subjects can bring to a child’s life and future.
+        <strong class="d-block text-warning" style="font-family: Arial narrow;font-size: 18px;font-weight: bold;">A FULL EDUCATION</strong>
+       <strong style="font-family: Arial narrow;font-size: 17px;">We believe that unlocking the potential in every pupil is only possible when you provide them with a full and rounded education. Of course, academia remains at the heart of that, but we never underestimate the importance of sports, music or the arts, and the incredible enrichment these subjects can bring to a child’s life and future.</strong>
 </p>
       </p>
     </div>
@@ -120,11 +120,11 @@
      <div class="fa-2x">
          <i class="fa-solid" width="32" height="32" >2.</i>
      </div>&nbsp;&nbsp;&nbsp;
-
+                                                                                                                 
       <p class="pb-3 mb-0 small lh-sm border-bottom">
-       <strong class="d-block text-warning"  style="font-family: Arial narrow;font-size: 18px;font-weight: bold;">Making each individual the best version of themselves they can be.</strong>
-        We believe that every child is an individual with their own unique personality, talents and skills; and it’s this individuality that we encourage them to grow at all stages of their education.<br><br>
-		A child’s potential could lie anywhere – so we ensure that every pupil is exposed to a huge array of opportunities and experiences. We then pride ourselves on identifying and honing their strengths to make the most of their natural abilities, while working hard to develop areas that need improvement. This approach sees each and every student grow into the very best version of themselves they can be.
+       <strong class="d-block text-warning"  style="font-family: Arial narrow;font-size: 18px;font-weight: bold;">MAKING EACH INDIVIDUAL THE BEST VERSION OF THEMSELVES THEY CAN BE.</strong>
+       <strong style="font-family: Arial narrow;font-size: 17px;"> We believe that every child is an individual with their own unique personality, talents and skills; and it’s this individuality that we encourage them to grow at all stages of their education.<br><br>
+		A child’s potential could lie anywhere – so we ensure that every pupil is exposed to a huge array of opportunities and experiences. We then pride ourselves on identifying and honing their strengths to make the most of their natural abilities, while working hard to develop areas that need improvement. This approach sees each and every student grow into the very best version of themselves they can be.</strong>
       </p>
     </div>
     <div class="d-flex text-muted pt-2">
@@ -132,10 +132,10 @@
   <i class="fa-solid ">3.</i>
 </div>&nbsp;&nbsp;&nbsp;
 
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-warning"  style="font-family: Arial narrow;font-size: 18px;font-weight: bold;"> Confidence for life beyond education</strong>
-        Our approach to ensuring each child becomes a confident, well-rounded young adult isn’t exclusively founded on providing an excellent education.<br><br>
-		We believe instilling confidence in each individual child by providing an environment that is full, diverse & inspiring
+      <p class="pb-3 mb-0 small lh-sm border-bottom">                                                                 
+        <strong class="d-block text-warning"  style="font-family: Arial narrow;font-size: 18px;font-weight: bold;"> CONFIDENCE FOR LIFE BEYOND EDUCATION</strong>
+        <strong style="font-family: Arial narrow;font-size: 17px;"> Our approach to ensuring each child becomes a confident, well-rounded young adult isn’t exclusively founded on providing an excellent education.<br>
+		We believe instilling confidence in each individual child by providing an environment that is full, diverse & inspiring</strong>
       </p>
     </div>
    

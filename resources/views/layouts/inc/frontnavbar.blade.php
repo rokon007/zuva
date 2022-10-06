@@ -108,7 +108,7 @@ a.ex1 {
         <div class="col-md-12">
             <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
                 <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-success py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Notice</span></div>
-                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"style="color:black;"> 
 				    @if($notice->count())
                         @foreach ($notice as $notic)
 				 <a href="{{ route('view.notice', [$notic->id]) }}">

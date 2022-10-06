@@ -33,7 +33,7 @@
 </div> 
 -->
  <!-- ======= herostaff Section ======= -->
-  <section id="herostaff" class="herostaff">
+ <!-- <section id="herostaff" class="herostaff">
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
@@ -61,30 +61,30 @@
               <div class="icon">
 			  <img  src="{{asset('frontend/image/t6.jpg')}}" class="card-img-top" alt="...">
 			  </div>
-             <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+             
             </div>
           </div>
-          <!--End Icon Box -->
+        
 
           <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon">
 			  <img  src="{{asset('frontend/image/t8.jpg')}}" class="card-img-top" alt="...">
 			  </div>
-              <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+             
             </div>
           </div>
-          <!--End Icon Box -->
+         
 
           <div class="col-xl-4 col-md-4 col-sm-1" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon">
 			  <img  src="{{asset('frontend/image/t7.jpg')}}" class="card-img-top" alt="...">
 			  </div>
-              <!-- <h4 class="title"><a href="" class="stretched-link"> </a></h4>-->
+             
             </div>
           </div>
-          <!--End Icon Box -->
+          
 
           
 
@@ -93,8 +93,18 @@
     </div>
 
     </div>
-  </section>
+  </section>-->
   <!-- End herostaff Section -->
+  
+  
+  <div class="hero100-image">
+     
+  <div class="hero100-text">
+    <p style="font-weight: bold; font-size: 300%;"> OUR<span> STAFF</span></p>
+    
+  
+  </div>
+</div> 
 
 
    <div class="py-5"> 
@@ -105,14 +115,14 @@
 	   
 	  <div class="card mb-3 mt-2" style="max-width: 100%;">
   <div class="row g-0">
-    <div class="col-md-4">
-      <img src="{{$staff->images}}" class="img-fluid rounded-start"  alt="...">
+    <div class="col-md-4 col-sm-1">
+      <img src="{{$staff->images}}" width="200" class="img-fluid mb-2 img-thumbnail rounded-start"  alt="...">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 col-sm-1">
       <div class="card-body">
-        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">{{$staff->first_name}} {{$staff->last_name}}</h5>
-		<h6 class="card-text">{{$staff->position}}</h6>
-        <p class="card-text">{{$staff->description}}</p>
+        <h4 class="card-title" style="color: #008000; ;font-family:Arial narrow;font-weight: bold;">{{$staff->first_name}} {{$staff->last_name}}</h5>
+		<h6 class="card-text" style="font-family: Arial narrow;font-size: 17px;">{{$staff->position}}</h6><hr>
+        <p class="card-text" style="font-family: Arial narrow;font-size: 17px;">{{$staff->description}}</p>
 
        
       </div>
@@ -135,8 +145,8 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title" style="color: #008000; ;font-family:Times New Roman;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
-        <p class="card-text">Experienced mathematics teacher with a career spanning a decade
+        <h5 class="card-title" style="color: #008000; ;font-family:Arial narrow;font-size:;font-weight: bold;">Mharadzirwa Kudakwashe Bryan</h5>
+        <p class="card-text" >Experienced mathematics teacher with a career spanning a decade
 Self-driven, highly intrinsically motivated,  hardworking, innovative, a child-centered educationist who is always willing to accept new ideas of teaching and learning.
 <br>
 A well-decorated handball coach with various Mash East province accolades from former schools, St John's Chikwaka and Murewa High.

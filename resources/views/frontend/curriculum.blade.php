@@ -112,7 +112,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;" >Mathematics</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;" >MATHEMATICS</h5>
    
     
   </div>
@@ -122,7 +122,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">English Language</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">ENGLISH LANGUAGE</h5>
     
   </div>
 </div>
@@ -131,7 +131,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">History</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">HISTORY</h5>
     
   </div>
 </div>
@@ -140,7 +140,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Religious Studies</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">RELIGIOUS STUDIES</h5> 
    
   </div>
 </div>
@@ -150,7 +150,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Combined Science</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">COMBINED SCIENCE</h5>
    
   </div>
 </div>
@@ -159,7 +159,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Geography</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">GEOGRAPHY</h5>
    
   </div>
 </div>
@@ -168,26 +168,19 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Accounting</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">ACCOUNTING</h5>
    
   </div>
 </div>
 </div>
 
 
-<div class="col-md-4 col-sm-1 mt-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Economics</h5>
-   
-  </div>
-</div>
-</div>
+
 
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Business Studies</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">BUSSINESS STUDIES</h5> 
    
   </div>
 </div>
@@ -196,7 +189,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">ICT</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">ICT</h5>
     
   </div>
 </div>
@@ -205,7 +198,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Agriculture</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">AGRICULTURE</h5>
     
   </div>
 </div>
@@ -222,7 +215,7 @@
 <div class="col-md-6 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Brick And Block Laying</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">BRICK AND BLOCK LAYING</h5>
    
   </div>
 </div>
@@ -232,7 +225,7 @@
 <div class="col-md-6 col-sm-1 mt-3">
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Building Technology And Design</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">BUILDING TECHNOLOGY AND DESING</h5>
     
   </div>
 </div>
@@ -249,7 +242,7 @@
 <div class="col-md-4 col-sm-1 mt-3">
 <div class="card" >
   <div class="card-body">
-    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 25px;font-weight: bold;">Shona</h5>
+    <h5 class="card-title text-center" style="color: #008000; ;font-family:Times New Roman;font-size: 16PX;font-weight: bold;">SHONA</h5>
    
   </div>
 </div>
