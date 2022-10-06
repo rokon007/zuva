@@ -9,7 +9,7 @@
                </center>
             </div>
 			
-			<div class="col-md-4 footer-brand animated ">
+			<div class="col-md-4 footer-brand animated text-center">
 			<p><i class="fa-sharp fa-solid fa-phone"></i> &nbsp;  &nbsp;&nbsp;0719586160; &nbsp;0781501648</p>
 			<p><i class="fa-sharp fa-solid fa-envelope"></i> &nbsp;  &nbsp;&nbsp;info@zuvaacademy.com</p>
         <p><i class="fa-sharp fa-solid fa-earth-americas"></i> &nbsp; &nbsp; &nbsp;www.zuvaacademy.com</p>
