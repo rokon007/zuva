@@ -1,7 +1,12 @@
 @extends('layouts.front')
 
 @section('title')
- Zuva Academy
+ <title>Zuva Academy|{{$employee->first_name}} {{$employee->last_name}}</title>
+        <meta charset="utf-8">
+    <meta name="description" content="{{!!$employee->description!!}}">
+    <meta name="keywords" content="Zuva Academy,{{$employee->first_name}} {{$employee->last_name}}">
+    <meta name="author" content="Tanaka Karumazondo.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 @endsection
 @section('css')
       <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -62,7 +67,7 @@
                     <div class="p-4 bg-light rounded shadow-sm">
                 <div class="row">
                     <div class="col-md-12">
-					 <p class="font-italic mb-0">{{$employee->description}}.</p>
+					 <p class="font-italic mb-0">{{!!$employee->description!!}}.</p>
 					</div>
 					
                 </div>

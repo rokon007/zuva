@@ -1,7 +1,13 @@
 @extends('layouts.front')
 
 @section('title')
- Zuva Academy | Contact Us
+
+ <title> Zuva Academy | Contact Us</title>
+        <meta charset="utf-8">
+    <meta name="description" content="Lot 1 of Risboro Farm,Chegutu;Contact Number#0719586160;#0781501648">
+    <meta name="keywords" content="Zuva Academy , Contact Us">
+    <meta name="author" content="Tanaka Karumazondo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 @endsection
 @section('css')
 <link rel="stylesheet" href="frontend/curriculum/css/font-awesome.min.css">

@@ -10,10 +10,10 @@
             </div>
 			
 			<div class="col-md-4 footer-brand animated text-center">
-			<p><i class="fa-sharp fa-solid fa-phone"></i> &nbsp;  &nbsp;&nbsp;0719586160; &nbsp;0781501648</p>
-			<p><i class="fa-sharp fa-solid fa-envelope"></i> &nbsp;  &nbsp;&nbsp;info@zuvaacademy.com</p>
-        <p><i class="fa-sharp fa-solid fa-earth-americas"></i> &nbsp; &nbsp; &nbsp;www.zuvaacademy.com</p>
-          <p><i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp;Lot 1 of Risboro Farm,Chegutu</p>
+			<p class="copyright-text"><i class="fa-sharp fa-solid fa-phone "></i> &nbsp;  &nbsp;&nbsp;0719586160; &nbsp;0781501648</p>
+			<p class="copyright-text"><i class="fa-sharp fa-solid fa-envelope"></i> &nbsp;  &nbsp;&nbsp;info@zuvaacademy.com</p>
+        <p class="copyright-text"><i class="fa-sharp fa-solid fa-earth-americas"></i> &nbsp; &nbsp; &nbsp;www.zuvaacademy.com</p>
+          <p class="copyright-text"><i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; &nbsp; &nbsp;Lot 1 of Risboro Farm,Chegutu</p>
             </div>
         	<!--<div class="col-md-4 footer-nav animated fadeInUp">
             	 <p>© 2014 BS3 UI Kit, All rights reserved</p>
@@ -46,8 +46,8 @@
             </div>-->
         	<div class="col-md-6 footer-ns animated fadeInRight">
 			<div class="container">
-			 <p>.</p>
-            	<div class="copyright-text">
+			
+            	<div class="copyright-text text-center">
 				 <p>Subscribe To Our Newsletter.</p>
 				 </div>
                <!-- <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>-->
@@ -58,16 +58,14 @@
                                        <input type="email" id="subscriber_email" name="subscriber_email" placeholder="Email Address">
                                         <button  type="submit"><i class="fab fa-telegram-plane"></i></button>
                                     </form>
-                                        
+                                      <div class="copyright-text text-center"><p>Copyright © 2022, All Rights Reserved Zuva Academy</a></p></div>
+                            
+                          
                                     
                                 </div><!-- /input-group -->
                  </p>
             </div>
 			</div>
         </div>
-		<center>
-		   <div class="copyright-text">
-                            <p>Copyright © 2022, All Rights Reserved Zuva Academy</a></p>
-                        </div>
-		</center>
+		
     </footer>

@@ -1,7 +1,13 @@
 @extends('layouts.front')
 
 @section('title')
- Zuva Academy|Curriculum
+
+ <title>Zuva Academy|Curriculum</title>
+        <meta charset="utf-8">
+    <meta name="description" content=" ENROLL YOUR CHILD AT ZUVA ACADEMY FOR A FULL EDUCATION ">
+    <meta name="keywords" content="Zuva Academy , Curriculum">
+    <meta name="author" content="Tanaka Karumazondo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 @endsection
 
 @section('css')

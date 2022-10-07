@@ -1,7 +1,12 @@
 @extends('layouts.front')
 
 @section('title')
- Zuva Academy | Contact Us
+<title>Zuva Academy|{{ $notice1->title }}</title>
+        <meta charset="utf-8">
+    <meta name="description" content=" {!! $notice1->description !!}. ">
+    <meta name="keywords" content="Zuva Academy , Notice,{{ $notice1->title }}">
+    <meta name="author" content="Tanaka Karumazondo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 @endsection
 @section('css')
       <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
