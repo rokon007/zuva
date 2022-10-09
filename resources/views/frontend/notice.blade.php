@@ -15,7 +15,7 @@
 
 @endsection
 
-@include('layouts.inc.frontnavbar')
+
 @section('content')
 
   <!-- Page content-->

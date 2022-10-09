@@ -4,14 +4,14 @@
 
  <title> Zuva Academy | Our Staff</title>
     <meta charset="utf-8">
-    <meta name="description" content="Staff">
+    <meta name="description" content="Experienced Staff">
    
     <meta name="keywords" content="Zuva Academy-Our Staff">
     <meta name="author" content="Tanaka Karumazondo">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 @endsection
 
-@include('layouts.inc.frontnavbar')
+
 @section('content')
     <style>
        .container1 {

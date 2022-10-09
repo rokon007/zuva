@@ -15,17 +15,16 @@
 	  <link href="frontend/css/owl.carousel.min.css" rel="stylesheet">
 	  <link href="frontend/css/owl.theme.default.min.css" rel="stylesheet">
 	  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-	<!-- <link rel="shortcut icon"  href="/frontend/image/favicon.ico">
-	    <link rel="icon" sizes="64x64" href="/frontend/image/favicon.ico">
-	 <link rel="shortcut icon" href="/frontend/image/favicon.ico" type="image/x-icon" />-->
-	  <link rel="shortcut icon" type="image/png" href="/frontend/image/favicon1.ico"/>
+	<link rel="shortcut icon" type="image/png" href="frontend/image/favicon1.ico"/>
       @yield('css')
+	  
+	   @include('layouts.inc.frontnavbar')
 </head>
 <body>
     
-        <div class="content">
+       
             @yield('content')
-        </div>
+       
     <!-- Scripts -->
 	<script src="frontend/js/jquery-3.6.1.js"></script>
 	

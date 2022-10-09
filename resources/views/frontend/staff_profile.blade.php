@@ -14,7 +14,7 @@
 	  
 
 @endsection
-@include('layouts.inc.frontnavbar')
+
 @section('content')
     <style>
 	
@@ -27,8 +27,8 @@
 	</style>
    
 
-
-<div class="row py-5 px-4">
+<div class="container py-5">
+<div class="row  px-4">
     <div class="col-xl-12 col-md-12 col-sm-10 mx-auto">
 
         <!-- Profile widget -->
@@ -36,7 +36,7 @@
             <div class="px-4 pt-0 pb-4 bg-dark">
                 <div class="media align-items-end profile-header">
                     <div class="profile mr-3">
-					<img src="{{$employee->images}}" alt="..." width="130" class="rounded mb-2 img-thumbnail">
+					<img src="{{$employee->images}}" alt="..." width="200" class="rounded mb-2 img-thumbnail">
 					</div>
                     <div class="media-body mb-5 text-white">
                         <h4 class="mt-0 mb-0">{{$employee->first_name}} {{$employee->last_name}}</h4>
@@ -67,7 +67,7 @@
                     <div class="p-4 bg-light rounded shadow-sm">
                 <div class="row">
                     <div class="col-md-12">
-					 <p class="font-italic mb-0">{{!!$employee->description!!}}.</p>
+					 <p class="font-italic mb-0">{!!$employee->description!!}.</p>
 					</div>
 					
                 </div>
@@ -81,11 +81,13 @@
 
     </div>
 </div>
+</div>
+<div class="py-5"><div class="container text-center"><h5>{{$employee->first_name}} {{$employee->last_name}}</h5></div></div>
 
-
- 
+ <div class="py-5">
     
 	 @include('layouts.inc.footer1')
+	 </div>
 @endsection
 @section('script')
      <script src="{{ asset('frontend/js/jquery-3.6.1.js') }}"></script>

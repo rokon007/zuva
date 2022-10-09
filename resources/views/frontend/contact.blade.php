@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="frontend/curriculum/css/rokon1.css" />
 <link rel="stylesheet" href="frontend/curriculum/css/rokon2.css" />
 @endsection
-@include('layouts.inc.frontnavbar')
+
 @section('content')
 
 <div class="container">
