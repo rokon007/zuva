@@ -3,6 +3,7 @@
 <head>
     
    @yield('title')
+   <meta name="google-site-verification" content="8TqHhdpu48-N-Sb0XL5vuGqdRB9lpMmcmY_XTREKmoE" />
      <!-- Fonts -->
      <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
