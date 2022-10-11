@@ -43,9 +43,9 @@
                    
                      <div class="card-body">
 					  @if($launch->status==0)
-							   <img img src="{{asset('Images/active.png')}}" class="card-img-top" alt="...">
+							   <img  src="{{asset('Images/active.png')}}" class="card-img-top" alt="...">
 						  @else
-							    <img img src="{{asset('Images/waiting.png')}}" class="card-img-top" alt="...">
+							    <img  src="{{asset('Images/waiting.png')}}" class="card-img-top" alt="...">
 						 @endif
                       
 					   
