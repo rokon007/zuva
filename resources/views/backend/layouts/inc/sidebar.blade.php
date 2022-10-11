@@ -25,7 +25,7 @@
                 <div class="menu-title">Website</div>
               </a>
               <ul>
-                <li> <a href="app-emailbox.html"><i class="bi bi-arrow-right-short"></i>Home Page</a>
+                <li> <a href="{{ route('publish') }}"><i class="bi bi-arrow-right-short"></i>Publish</a>
                 </li>
                 <li> <a href="app-chat-box.html"><i class="bi bi-arrow-right-short"></i>Why Choose ZA Page</a>
                 </li>

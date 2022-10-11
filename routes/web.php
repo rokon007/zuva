@@ -26,6 +26,7 @@ Route::get('/contact',[FrontendController::class,'index_contact']);
 Route::get('/curriculum',[FrontendController::class,'index_curriculum']);
 Route::get('/notice-display/{id}',[FrontEndController::class,'notice'])->name('view.notice');
 Route::get('/staff-profile/{id}',[FrontendController::class,'staffprofile'])->name('staff.profile');
+Route::get('/ready-for-launch',[FrontendController::class,'launch'])->name('launch');
 Route::get('/home2',[FrontendController::class,'index_index2']);
 
 Auth::routes();
@@ -43,6 +44,8 @@ Route::middleware(['auth','is_admin'])->group(function(){
     Route::get('/dassboard','Backend\BackendController@index')->name('dassboard');
 	Route::get('/profile','Backend\BackendController@indexProfile')->name('profile');
 	Route::post('/user-update','Backend\BackendController@userUpdate')->name('user.update');
+	Route::get('/publish','Backend\BackendController@publish')->name('publish');
+	Route::post('/publish-update','Backend\BackendController@publishUpdate')->name('publishUpdate');
     Route::resource('employee', 'Backend\EmployeeController');
     Route::resource('notice', 'Backend\NoticeController');
     });

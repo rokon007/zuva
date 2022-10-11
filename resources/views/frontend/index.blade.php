@@ -1,5 +1,9 @@
 @extends('layouts.front')
-
+                                   @if(isset($launch))
+								    @if($launch->status==1)
+										{{ route('launch') }}									
+								    @endif
+							        @endif
 @section('title')
  <title>Zuva Academy</title>
         <meta charset="utf-8">

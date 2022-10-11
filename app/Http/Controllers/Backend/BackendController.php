@@ -9,6 +9,7 @@ use DB;
 use File;
 use Session;
 use Illuminate\Support\Str;
+use App\Models\Launch;
 
 class BackendController extends Controller
 {
@@ -17,11 +18,29 @@ class BackendController extends Controller
         return view('backend.dashboard.index');
     }
 	
+	 public function publish()
+    {
+		$launch = Launch::where('id', 1)->first();
+        return view('backend.dashboard.publish', compact('launch'));
+    }
+	
+	public function publishUpdate(Request $request)
+	{
+		$launch = Launch::where('id', 1)->first();
+        $launch->status=$request->input('status');
+        $launch->launch_date=$request->input('launch_date');
+		$launch->update();
+
+        Session::flash('success', 'Website Publish updated successfully');
+        return redirect()->back();
+	}
+	
 	public function indexProfile()
     {
         return view('backend.profile.index');
     }
 	
+	//PROFILE UPDATE
 	public function userUpdate(Request $request)
 	{
 		$EmailCount=User::where('email',$request->email)->count();
